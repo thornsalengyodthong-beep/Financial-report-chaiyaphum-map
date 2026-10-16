@@ -1,0 +1,57 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "province": "ชัยภูมิ",
+    "test": true
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "PAO-001",
+        "name": "องค์การบริหารส่วนจังหวัดชัยภูมิ",
+        "short_name": "อบจ.ชัยภูมิ",
+        "type": "อบจ.",
+        "amphoe": "เมืองชัยภูมิ",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว (ปี 67)",
+        "url": "https://chpao.org/uploads/news/attachment/953482-img-42416255568.pdf",
+        "latest_year": "2567",
+        "note": "ล่าสุดปี 67"
+      },
+      "geometry": { "type": "Point", "coordinates": [102.0315, 15.8068] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TM-001",
+        "name": "เทศบาลเมืองชัยภูมิ",
+        "short_name": "ทม.ชัยภูมิ",
+        "type": "เทศบาลเมือง",
+        "amphoe": "เมืองชัยภูมิ",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว (ปี 67)",
+        "url": "https://www.cyptm.go.th/files/com_news_command/2025-07_b10269c57f729cb.pdf",
+        "latest_year": "2567",
+        "note": "ล่าสุดปี 67"
+      },
+      "geometry": { "type": "Point", "coordinates": [102.0300, 15.8100] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TS-001",
+        "name": "เทศบาลตำบลเกษตรสมบูรณ์",
+        "short_name": "ทต.เกษตรสมบูรณ์",
+        "type": "เทศบาลตำบล",
+        "amphoe": "เกษตรสมบูรณ์",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "url": "",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": { "type": "Point", "coordinates": [101.9997, 16.2825] }
+    }
+  ]
+}

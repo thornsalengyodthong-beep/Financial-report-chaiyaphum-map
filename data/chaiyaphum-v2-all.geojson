@@ -1,0 +1,3347 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "province": "ชัยภูมิ",
+    "criteria": "มีลิงค์ + ปี 67-68",
+    "created": "2024-05-01",
+    "updated": "2026-10-14",
+    "source": "รวม 3 ส่วน"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 3,
+        "id": "PAO-001",
+        "name": "องค์การบริหารส่วนจังหวัดชัยภูมิ",
+        "short_name": "อบจ.ชัยภูมิ",
+        "type": "อบจ.",
+        "amphoe": "เมืองชัยภูมิ",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว (ปี 67)",
+        "url": "https://chpao.org/uploads/news/attachment/953482-img-42416255568.pdf",
+        "latest_year": "2567",
+        "note": "ล่าสุดปี 67"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.0315,
+          15.8068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 4,
+        "id": "TM-001",
+        "name": "เทศบาลเมืองชัยภูมิ",
+        "short_name": "ทม.ชัยภูมิ",
+        "type": "เทศบาลเมือง",
+        "amphoe": "เมืองชัยภูมิ",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว (ปี 67)",
+        "url": "https://www.cyptm.go.th/files/com_news_command/2025-07_b10269c57f729cb.pdf",
+        "latest_year": "2567",
+        "note": "ล่าสุดปี 67"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.03,
+          15.81
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 5,
+        "id": "TS-001",
+        "name": "เทศบาลตำบลชีลอง",
+        "short_name": "ทต.ชีลอง",
+        "type": "เทศบาลตำบล",
+        "amphoe": "เมืองชัยภูมิ",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.cheelong.go.th/v/document/1034",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.045,
+          15.795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 6,
+        "id": "TS-002",
+        "name": "เทศบาลตำบลโคกสูง",
+        "short_name": "ทต.โคกสูง",
+        "type": "เทศบาลตำบล",
+        "amphoe": "เมืองชัยภูมิ",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "",
+        "latest_year": "",
+        "note": "รายงานผลการตรวจสอบ สตง. ปี 2568"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.015,
+          15.815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 7,
+        "id": "TS-003",
+        "name": "เทศบาลตำบลลาดใหญ่",
+        "short_name": "ทต.ลาดใหญ่",
+        "type": "เทศบาลตำบล",
+        "amphoe": "เมืองชัยภูมิ",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "",
+        "latest_year": "",
+        "note": "ประชาสัมพันธ์ผลการตรวจสอบ ปี 2568"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.05,
+          15.79
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 8,
+        "id": "TS-004",
+        "name": "เทศบาลตำบลบ้านค่ายหมื่นแผ้ว",
+        "short_name": "ทต.บ้านค่ายหมื่นแผ้ว",
+        "type": "เทศบาลตำบล",
+        "amphoe": "เมืองชัยภูมิ",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.bankhaimuenpheaw.go.th/project-detail?hd=17&id=29823",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.01,
+          15.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 19,
+        "id": "TS-019",
+        "name": "เทศบาลตำบลกุดตุ้ม",
+        "short_name": "ทต.กุดตุ้ม",
+        "type": "เทศบาลตำบล",
+        "amphoe": "เมืองชัยภูมิ",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.kodtum.go.th/select_news.php?news_id=1783",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.04,
+          15.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 25,
+        "id": "TS-025",
+        "name": "เทศบาลตำบลบ้านเพชร",
+        "short_name": "ทต.บ้านเพชร",
+        "type": "เทศบาลตำบล",
+        "amphoe": "บำเหน็จณรงค์",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.banphet-mu.go.th/index/load_data/?doc=16576",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7081,
+          15.7963
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 26,
+        "id": "TS-026",
+        "name": "เทศบาลตำบลบำเหน็จณรงค์",
+        "short_name": "ทต.บำเหน็จณรงค์",
+        "type": "เทศบาลตำบล",
+        "amphoe": "บำเหน็จณรงค์",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "",
+        "latest_year": "",
+        "note": "รายงานผลการตรวจสอบ สตง. ปี 2568"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.71,
+          15.793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 45,
+        "id": "TS-045",
+        "name": "เทศบาลตำบลห้วยแย้",
+        "short_name": "ทต.ห้วยแย้",
+        "type": "เทศบาลตำบล",
+        "amphoe": "หนองบัวระเหว",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.huiyae.go.th/content/252/160562",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.75,
+          15.875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 46,
+        "id": "TS-046",
+        "name": "เทศบาลตำบลโคกสะอาด",
+        "short_name": "ทต.โคกสะอาด",
+        "type": "เทศบาลตำบล",
+        "amphoe": "หนองบัวระเหว",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว (ปี 67)",
+        "url": "https://www.khoksaadchaiyaphum.go.th/fileupload/2025-05-149540673396.pdf",
+        "latest_year": "2567",
+        "note": "ล่าสุดปี 67"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.745,
+          15.88
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 47,
+        "id": "TS-047",
+        "name": "เทศบาลตำบลหนองบัวระเหว",
+        "short_name": "ทต.หนองบัวระเหว",
+        "type": "เทศบาลตำบล",
+        "amphoe": "หนองบัวระเหว",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.nongbuarawea.go.th/Pages/finance_detail/57",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.755,
+          15.87
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 50,
+        "id": "TS-050",
+        "name": "เทศบาลตำบลเทพสถิต",
+        "short_name": "ทต.เทพสถิต",
+        "type": "เทศบาลตำบล",
+        "amphoe": "เทพสถิต",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://thepsathit.go.th/",
+        "latest_year": "",
+        "note": "รายงานการเงินปี 2568"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5967,
+          15.9819
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 56,
+        "id": "TS-056",
+        "name": "เทศบาลตำบลบ้านเต่า",
+        "short_name": "ทต.บ้านเต่า",
+        "type": "เทศบาลตำบล",
+        "amphoe": "บ้านแท่น",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.bantao.go.th/project-detail?hd=2&id=30059",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.3333,
+          16.4667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 57,
+        "id": "TS-057",
+        "name": "เทศบาลตำบลบ้านแท่น",
+        "short_name": "ทต.บ้านแท่น",
+        "type": "เทศบาลตำบล",
+        "amphoe": "บ้านแท่น",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "url": "banthaenlocal.go.th/Home",
+        "latest_year": "",
+        "note": "หน้าหลัก"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.336,
+          16.463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 62,
+        "id": "TS-062",
+        "name": "เทศบาลตำบลตลาดแร้ง",
+        "short_name": "ทต.ตลาดแร้ง",
+        "type": "เทศบาลตำบล",
+        "amphoe": "บ้านเขว้า",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.taladrang.go.th/fileupload/2026-04-101610679184.pdf",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.9372,
+          15.7742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 63,
+        "id": "TS-063",
+        "name": "เทศบาลตำบลลุ่มลำชี",
+        "short_name": "ทต.ลุ่มลำชี",
+        "type": "เทศบาลตำบล",
+        "amphoe": "บ้านเขว้า",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "url": "https://lumlamchee.go.th/select_news.php?news_id=808",
+        "latest_year": "2566",
+        "note": "ล่าสุดปี 66"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.94,
+          15.77
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 64,
+        "id": "TS-064",
+        "name": "เทศบาลตำบลทุ่งทอง",
+        "short_name": "ทต.ทุ่งทอง",
+        "type": "เทศบาลตำบล",
+        "amphoe": "บ้านเขว้า",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "http://www.tungtong.go.th/select_news.php?news_id=2554",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.935,
+          15.778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 65,
+        "id": "TS-065",
+        "name": "เทศบาลตำบลบ้านเขว้า",
+        "short_name": "ทต.บ้านเขว้า",
+        "type": "เทศบาลตำบล",
+        "amphoe": "บ้านเขว้า",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://bankhwao.go.th/select_news.php?news_id=803",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.932,
+          15.776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 69,
+        "id": "TS-069",
+        "name": "เทศบาลตำบลคอนสาร",
+        "short_name": "ทต.คอนสาร",
+        "type": "เทศบาลตำบล",
+        "amphoe": "คอนสาร",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "url": "https://www.tessabankhonsan.go.th/home",
+        "latest_year": "",
+        "note": "หน้าหลัก"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7533,
+          16.5892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 70,
+        "id": "TS-070",
+        "name": "เทศบาลตำบลทุ่งลุยลาย",
+        "short_name": "ทต.ทุ่งลุยลาย",
+        "type": "เทศบาลตำบล",
+        "amphoe": "คอนสาร",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.thungluilai.go.th/news-detail?hd=1&id=59293",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.748,
+          16.592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 72,
+        "id": "TS-072",
+        "name": "เทศบาลตำบลห้วยยาง",
+        "short_name": "ทต.ห้วยยาง",
+        "type": "เทศบาลตำบล",
+        "amphoe": "คอนสาร",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.huai-yang.go.th/news-detail?hd=2&id=64888",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.76,
+          16.585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 78,
+        "id": "TS-078",
+        "name": "เทศบาลตำบลหลวงศิริ",
+        "short_name": "ทต.หลวงศิริ",
+        "type": "เทศบาลตำบล",
+        "amphoe": "หนองบัวแดง",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://lhuangsiri.go.th/public/list/data/detail/id/3949/menu/1589/page/1",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.0167,
+          15.9667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 79,
+        "id": "TS-079",
+        "name": "เทศบาลตำบลหนองบัวแดง",
+        "short_name": "ทต.หนองบัวแดง",
+        "type": "เทศบาลตำบล",
+        "amphoe": "หนองบัวแดง",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.nbd.go.th/project-detail?hd=2&id=30058",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.02,
+          15.97
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 87,
+        "id": "TS-087",
+        "name": "เทศบาลตำบลคอนสวรรค์",
+        "short_name": "ทต.คอนสวรรค์",
+        "type": "เทศบาลตำบล",
+        "amphoe": "คอนสวรรค์",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "url": "https://www.khonsawancity.go.th/news-detail?hd=2&id=64912",
+        "latest_year": "",
+        "note": "ไม่พบรายงาน"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2831,
+          15.9322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 97,
+        "id": "TS-097",
+        "name": "เทศบาลตำบลหนองบัวใหญ่",
+        "short_name": "ทต.หนองบัวใหญ่",
+        "type": "เทศบาลตำบล",
+        "amphoe": "จัตุรัส",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.nongbuayai.go.th/fiscal-report/dl-30",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.8361,
+          15.6525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 98,
+        "id": "TS-098",
+        "name": "เทศบาลตำบลหนองบัวโคก",
+        "short_name": "ทต.หนองบัวโคก",
+        "type": "เทศบาลตำบล",
+        "amphoe": "จัตุรัส",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "",
+        "latest_year": "",
+        "note": "รายงานการเงิน ปี 2568"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.84,
+          15.65
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 99,
+        "id": "TS-099",
+        "name": "เทศบาลตำบลจัตุรัส",
+        "short_name": "ทต.จัตุรัส",
+        "type": "เทศบาลตำบล",
+        "amphoe": "จัตุรัส",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.chatturat.go.th/select_news.php?news_id=365",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.833,
+          15.655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 108,
+        "id": "TS-108",
+        "name": "เทศบาลตำบลหนองสังข์",
+        "short_name": "ทต.หนองสังข์",
+        "type": "เทศบาลตำบล",
+        "amphoe": "แก้งคร้อ",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "url": "https://www.tessaban-nongsang.go.th/project-detail?hd=34&id=2753",
+        "latest_year": "2562",
+        "note": "ล่าสุดปี 62"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1503,
+          16.1025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 109,
+        "id": "TS-109",
+        "name": "เทศบาลตำบลนาหนองทุ่ม",
+        "short_name": "ทต.นาหนองทุ่ม",
+        "type": "เทศบาลตำบล",
+        "amphoe": "แก้งคร้อ",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว (ปี 67)",
+        "url": "https://nanongtum.go.th/public/list/data/datacategory/catid/13/menu/1202",
+        "latest_year": "2567",
+        "note": "ล่าสุดปี 67"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.153,
+          16.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 110,
+        "id": "TS-110",
+        "name": "เทศบาลตำบลแก้งคร้อ",
+        "short_name": "ทต.แก้งคร้อ",
+        "type": "เทศบาลตำบล",
+        "amphoe": "แก้งคร้อ",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://kkmu.go.th/public/list/data/index/menu/1683",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.147,
+          16.105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 120,
+        "id": "TS-120",
+        "name": "เทศบาลตำบลบ้านเดื่อ",
+        "short_name": "ทต.บ้านเดื่อ",
+        "type": "เทศบาลตำบล",
+        "amphoe": "เกษตรสมบูรณ์",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.tambonbandua.go.th/select_news.php?news_id=2257",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.9997,
+          16.2825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 121,
+        "id": "TS-121",
+        "name": "เทศบาลตำบลบ้านเป้า",
+        "short_name": "ทต.บ้านเป้า",
+        "type": "เทศบาลตำบล",
+        "amphoe": "เกษตรสมบูรณ์",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://kasetsomboon.go.th/public/list/data/index/menu/1589",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.003,
+          16.28
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 122,
+        "id": "TS-122",
+        "name": "เทศบาลตำบลเกษตรสมบูรณ์",
+        "short_name": "ทต.เกษตรสมบูรณ์",
+        "type": "เทศบาลตำบล",
+        "amphoe": "เกษตรสมบูรณ์",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://kasetsomboon.go.th/public/list/data/detail/id/7809/menu/1589/page/1",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.0,
+          16.285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 126,
+        "id": "TS-126",
+        "name": "เทศบาลตำบลบ้านยาง",
+        "short_name": "ทต.บ้านยาง",
+        "type": "เทศบาลตำบล",
+        "amphoe": "เกษตรสมบูรณ์",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.banyang-sao.go.th/news-detail?hd=2&id=60324",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.995,
+          16.288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 129,
+        "id": "TS-129",
+        "name": "เทศบาลตำบลโนนทอง",
+        "short_name": "ทต.โนนทอง",
+        "type": "เทศบาลตำบล",
+        "amphoe": "เกษตรสมบูรณ์",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว (ปี 67)",
+        "url": "https://www.tambonnonthong.go.th/select_news.php?news_id=847",
+        "latest_year": "2567",
+        "note": "ล่าสุดปี 67"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.992,
+          16.279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 133,
+        "id": "TS-133",
+        "name": "เทศบาลตำบลธาตุทอง",
+        "short_name": "ทต.ธาตุทอง",
+        "type": "เทศบาลตำบล",
+        "amphoe": "ภูเขียว",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.tharttong.go.th/1select_news.php?news_id=1493",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1411,
+          16.3747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 134,
+        "id": "TS-134",
+        "name": "เทศบาลตำบลภูเขียว",
+        "short_name": "ทต.ภูเขียว",
+        "type": "เทศบาลตำบล",
+        "amphoe": "ภูเขียว",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "url": "https://www.pkcity.go.th/home",
+        "latest_year": "",
+        "note": "หน้าหลัก"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.145,
+          16.372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 135,
+        "id": "TS-135",
+        "name": "เทศบาลตำบลบ้านเพชรภูเขียว",
+        "short_name": "ทต.บ้านเพชรภูเขียว",
+        "type": "เทศบาลตำบล",
+        "amphoe": "ภูเขียว",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.banphetphukhieo.go.th/project-detail?hd=29&id=29837",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.138,
+          16.378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 136,
+        "id": "TS-136",
+        "name": "เทศบาลตำบลบ้านแก้ง",
+        "short_name": "ทต.บ้านแก้ง",
+        "type": "เทศบาลตำบล",
+        "amphoe": "ภูเขียว",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://fa8.naxapi.com/bankaengcity.go.th/dnm_file/news/1771922774214_59823_center.pdf",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.147,
+          16.38
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 144,
+        "id": "TS-144",
+        "name": "เทศบาลตำบลบ้านเพชร (ภูเขียว)",
+        "short_name": "ทต.บ้านเพชร",
+        "type": "เทศบาลตำบล",
+        "amphoe": "ภูเขียว",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.banpet.go.th/select_news.php?news_id=1960",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.134,
+          16.37
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 9,
+        "id": "OBT-009",
+        "name": "องค์การบริหารส่วนตำบลซับสีทอง",
+        "short_name": "อบต.ซับสีทอง",
+        "type": "อบต.",
+        "amphoe": "เมืองชัยภูมิ",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว (ปี 67)",
+        "url": "https://www.subseetong.go.th/news-detail?hd=2&id=52401",
+        "latest_year": "2567",
+        "note": "ล่าสุดปี 67"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.05,
+          15.82
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 10,
+        "id": "OBT-010",
+        "name": "องค์การบริหารส่วนตำบลลาดใหญ่",
+        "short_name": "อบต.ลาดใหญ่",
+        "type": "อบต.",
+        "amphoe": "เมืองชัยภูมิ",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.ladyailocal.go.th/project-detail?hd=34&id=33320",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.055,
+          15.785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 11,
+        "id": "OBT-011",
+        "name": "องค์การบริหารส่วนตำบลโนนสำราญ",
+        "short_name": "อบต.โนนสำราญ",
+        "type": "อบต.",
+        "amphoe": "เมืองชัยภูมิ",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว (ปี 68)",
+        "url": "https://www.nonsamranlocal.go.th/news-569.html",
+        "latest_year": "2568",
+        "note": "ล่าสุดปี 68"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.04,
+          15.83
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 12,
+        "id": "OBT-012",
+        "name": "องค์การบริหารส่วนตำบลนาเสียว",
+        "short_name": "อบต.นาเสียว",
+        "type": "อบต.",
+        "amphoe": "เมืองชัยภูมิ",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.naseaw.go.th/news-detail?hd=1&id=64889",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.06,
+          15.805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 13,
+        "id": "OBT-013",
+        "name": "องค์การบริหารส่วนตำบลหนองนาแซง",
+        "short_name": "อบต.หนองนาแซง",
+        "type": "อบต.",
+        "amphoe": "เมืองชัยภูมิ",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.nongnasang.go.th/project-detail?hd=17&id=29783",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.07,
+          15.81
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 14,
+        "id": "OBT-014",
+        "name": "องค์การบริหารส่วนตำบลบุ่งคล้า",
+        "short_name": "อบต.บุ่งคล้า",
+        "type": "อบต.",
+        "amphoe": "เมืองชัยภูมิ",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "url": "https://www.abtbungkla.go.th/news.php?id_type=11",
+        "latest_year": "2564",
+        "note": "ล่าสุดปี 64"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.08,
+          15.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 15,
+        "id": "OBT-015",
+        "name": "องค์การบริหารส่วนตำบลห้วยต้อน",
+        "short_name": "อบต.ห้วยต้อน",
+        "type": "อบต.",
+        "amphoe": "เมืองชัยภูมิ",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "url": "http://www.huayton.go.th/index.php/2015-05-28-15-54-33/206-2021-04-02-07-26-50",
+        "latest_year": "2566",
+        "note": "ล่าสุดปี 66"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.02,
+          15.84
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 16,
+        "id": "OBT-016",
+        "name": "องค์การบริหารส่วนตำบลท่าหินโงม",
+        "short_name": "อบต.ท่าหินโงม",
+        "type": "อบต.",
+        "amphoe": "เมืองชัยภูมิ",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว (ปี 67)",
+        "url": "https://www.thahin-ngom.go.th/news-detail?hd=2&id=52567",
+        "latest_year": "2567",
+        "note": "ล่าสุดปี 67"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.03,
+          15.85
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 17,
+        "id": "OBT-017",
+        "name": "องค์การบริหารส่วนตำบลโพนทอง",
+        "short_name": "อบต.โพนทอง",
+        "type": "อบต.",
+        "amphoe": "เมืองชัยภูมิ",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว (ปี 67)",
+        "url": "https://www.phonthong.go.th/1select_news.php?news_id=324",
+        "latest_year": "2567",
+        "note": "ล่าสุดปี 67"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.015,
+          15.795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 18,
+        "id": "OBT-018",
+        "name": "องค์การบริหารส่วนตำบลหนองไผ่",
+        "short_name": "อบต.หนองไผ่",
+        "type": "อบต.",
+        "amphoe": "เมืองชัยภูมิ",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.nongphaisao.go.th/project-detail?hd=34&id=29544",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.025,
+          15.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 20,
+        "id": "OBT-020",
+        "name": "องค์การบริหารส่วนตำบลนาฝาย",
+        "short_name": "อบต.นาฝาย",
+        "type": "อบต.",
+        "amphoe": "เมืองชัยภูมิ",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.nafai-chaiyaphum.go.th/project-detail?hd=39&id=30305",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.045,
+          15.815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 21,
+        "id": "OBT-021",
+        "name": "องค์การบริหารส่วนตำบลห้วยบง",
+        "short_name": "อบต.ห้วยบง",
+        "type": "อบต.",
+        "amphoe": "เมืองชัยภูมิ",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "url": "https://www.huaybong.go.th/Treasury/financial_status/Financial_status30septemble63.pdf",
+        "latest_year": "2563",
+        "note": "ล่าสุดปี 63"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.06,
+          15.825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 22,
+        "id": "OBT-022",
+        "name": "องค์การบริหารส่วนตำบลบ้านค่าย",
+        "short_name": "อบต.บ้านค่าย",
+        "type": "อบต.",
+        "amphoe": "เมืองชัยภูมิ",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://bankhaisao.go.th/select_news.php?news_id=1771",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.07,
+          15.79
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 23,
+        "id": "OBT-023",
+        "name": "องค์การบริหารส่วนตำบลบ้านเล่า",
+        "short_name": "อบต.บ้านเล่า",
+        "type": "อบต.",
+        "amphoe": "เมืองชัยภูมิ",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "url": "https://www.banlao-sao.go.th/home",
+        "latest_year": "",
+        "note": "หน้าหลัก"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.085,
+          15.805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 24,
+        "id": "OBT-024",
+        "name": "องค์การบริหารส่วนตำบลรอบเมือง",
+        "short_name": "อบต.รอบเมือง",
+        "type": "อบต.",
+        "amphoe": "เมืองชัยภูมิ",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.rmchaiyaphum.go.th/popdoc1.php",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.035,
+          15.795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 27,
+        "id": "OBT-027",
+        "name": "องค์การบริหารส่วนตำบลโคกเพชรพัฒนา",
+        "short_name": "อบต.โคกเพชรพัฒนา",
+        "type": "อบต.",
+        "amphoe": "บำเหน็จณรงค์",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "url": "https://www.phetpattana.go.th/select_news.php?news_id=732",
+        "latest_year": "2565",
+        "note": "ล่าสุดปี 65"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.72,
+          15.79
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 28,
+        "id": "OBT-028",
+        "name": "องค์การบริหารส่วนตำบลเกาะมะนาว",
+        "short_name": "อบต.เกาะมะนาว",
+        "type": "อบต.",
+        "amphoe": "บำเหน็จณรงค์",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.kohmanow.go.th/select_news.php?news_id=1107",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7,
+          15.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 29,
+        "id": "OBT-029",
+        "name": "องค์การบริหารส่วนตำบลบ้านตาล",
+        "short_name": "อบต.บ้านตาล",
+        "type": "อบต.",
+        "amphoe": "บำเหน็จณรงค์",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://bantan.go.th/รายงาน-เงิน-ประจำปี/",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.715,
+          15.785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 30,
+        "id": "OBT-030",
+        "name": "องค์การบริหารส่วนตำบลบ้านเพชร",
+        "short_name": "อบต.บ้านเพชร",
+        "type": "อบต.",
+        "amphoe": "บำเหน็จณรงค์",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "",
+        "latest_year": "",
+        "note": "รายงานผลการตรวจสอบ สตง."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.705,
+          15.805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 31,
+        "id": "OBT-031",
+        "name": "องค์การบริหารส่วนตำบลหัวทะเล",
+        "short_name": "อบต.หัวทะเล",
+        "type": "อบต.",
+        "amphoe": "บำเหน็จณรงค์",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.huatalae.go.th/select_news.php?news_id=1287",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.725,
+          15.78
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 32,
+        "id": "OBT-032",
+        "name": "องค์การบริหารส่วนตำบลบ้านชวน",
+        "short_name": "อบต.บ้านชวน",
+        "type": "อบต.",
+        "amphoe": "บำเหน็จณรงค์",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://banchuan.go.th/public/list/data/detail/id/125/menu/1202/page/1/catid/13",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.695,
+          15.815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 33,
+        "id": "OBT-033",
+        "name": "องค์การบริหารส่วนตำบลโคกเริงรมย์",
+        "short_name": "อบต.โคกเริงรมย์",
+        "type": "อบต.",
+        "amphoe": "บำเหน็จณรงค์",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.khokroengrom.go.th/select_news.php?news_id=711",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.73,
+          15.775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 34,
+        "id": "OBT-034",
+        "name": "องค์การบริหารส่วนตำบลท่ากูบ",
+        "short_name": "อบต.ท่ากูบ",
+        "type": "อบต.",
+        "amphoe": "ซับใหญ่",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://thagoob.go.th/select_news.php?news_id=351",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.62,
+          15.72
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 35,
+        "id": "OBT-035",
+        "name": "องค์การบริหารส่วนตำบลซับใหญ่",
+        "short_name": "อบต.ซับใหญ่",
+        "type": "อบต.",
+        "amphoe": "ซับใหญ่",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "url": "http://www.subyai.go.th",
+        "latest_year": "",
+        "note": "หน้าหลัก"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6167,
+          15.7167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 36,
+        "id": "OBT-036",
+        "name": "องค์การบริหารส่วนตำบลตะโกทอง",
+        "short_name": "อบต.ตะโกทอง",
+        "type": "อบต.",
+        "amphoe": "ซับใหญ่",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://takotong.go.th/news.php?id_type=26",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.625,
+          15.71
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 37,
+        "id": "OBT-037",
+        "name": "องค์การบริหารส่วนตำบลรังงาม",
+        "short_name": "อบต.รังงาม",
+        "type": "อบต.",
+        "amphoe": "เนินสง่า",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.rangam.go.th/select_news.php?news_id=729",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.9333,
+          15.7167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 38,
+        "id": "OBT-038",
+        "name": "องค์การบริหารส่วนตำบลหนองฉิม",
+        "short_name": "อบต.หนองฉิม",
+        "type": "อบต.",
+        "amphoe": "เนินสง่า",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.nongchim.go.th/project-detail?hd=34&id=30509",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.94,
+          15.72
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 39,
+        "id": "OBT-039",
+        "name": "องค์การบริหารส่วนตำบลตาเนิน",
+        "short_name": "อบต.ตาเนิน",
+        "type": "อบต.",
+        "amphoe": "เนินสง่า",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.tanern.go.th/select_news.php?news_id=1253",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.928,
+          15.712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 40,
+        "id": "OBT-040",
+        "name": "องค์การบริหารส่วนตำบลกะฮาด",
+        "short_name": "อบต.กะฮาด",
+        "type": "อบต.",
+        "amphoe": "เนินสง่า",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.kahad.go.th/project-detail?hd=17&id=30243",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.945,
+          15.718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 41,
+        "id": "OBT-041",
+        "name": "องค์การบริหารส่วนตำบลบ้านเจียง",
+        "short_name": "อบต.บ้านเจียง",
+        "type": "อบต.",
+        "amphoe": "ภักดีชุมพล",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.banjiang.go.th/project-detail?hd=17&id=31143",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5833,
+          15.9167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 42,
+        "id": "OBT-042",
+        "name": "องค์การบริหารส่วนตำบลแหลมทอง",
+        "short_name": "อบต.แหลมทอง",
+        "type": "อบต.",
+        "amphoe": "ภักดีชุมพล",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.laemthong.go.th/project-detail?hd=17&id=33329",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.59,
+          15.92
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 43,
+        "id": "OBT-043",
+        "name": "องค์การบริหารส่วนตำบลเจาทอง",
+        "short_name": "อบต.เจาทอง",
+        "type": "อบต.",
+        "amphoe": "ภักดีชุมพล",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "",
+        "latest_year": "",
+        "note": "รายงานการเงิน ปี 2568"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.575,
+          15.91
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 44,
+        "id": "OBT-044",
+        "name": "องค์การบริหารส่วนตำบลวังทอง",
+        "short_name": "อบต.วังทอง",
+        "type": "อบต.",
+        "amphoe": "ภักดีชุมพล",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://obt-wangthong.go.th/fileupload/202608191240926939.pdf",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.595,
+          15.925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 48,
+        "id": "OBT-048",
+        "name": "องค์การบริหารส่วนตำบลโสกปลาดุก",
+        "short_name": "อบต.โสกปลาดุก",
+        "type": "อบต.",
+        "amphoe": "หนองบัวระเหว",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.sokpladuk.go.th/project-detail?hd=29&id=29690",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.76,
+          15.88
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 49,
+        "id": "OBT-049",
+        "name": "องค์การบริหารส่วนตำบลวังตะเฆ่",
+        "short_name": "อบต.วังตะเฆ่",
+        "type": "อบต.",
+        "amphoe": "หนองบัวระเหว",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.wangtakhe.go.th/project-detail?hd=29&id=30405",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.74,
+          15.89
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 51,
+        "id": "OBT-051",
+        "name": "องค์การบริหารส่วนตำบลบ้านไร่",
+        "short_name": "อบต.บ้านไร่",
+        "type": "อบต.",
+        "amphoe": "เทพสถิต",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว (ปี 67)",
+        "url": "https://www.tambonbanrai.go.th/select_news.php?news_id=5061",
+        "latest_year": "2567",
+        "note": "ล่าสุดปี 67"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6,
+          15.99
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 52,
+        "id": "OBT-052",
+        "name": "องค์การบริหารส่วนตำบลโป่งนก",
+        "short_name": "อบต.โป่งนก",
+        "type": "อบต.",
+        "amphoe": "เทพสถิต",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "url": "https://www.pongnok.go.th/select_news.php?news_id=338",
+        "latest_year": "2564",
+        "note": "ล่าสุดปี 64"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.605,
+          15.975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 53,
+        "id": "OBT-053",
+        "name": "องค์การบริหารส่วนตำบลนายางกลัก",
+        "short_name": "อบต.นายางกลัก",
+        "type": "อบต.",
+        "amphoe": "เทพสถิต",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "",
+        "latest_year": "",
+        "note": "Audit of the financial statements"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.61,
+          15.985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 54,
+        "id": "OBT-054",
+        "name": "องค์การบริหารส่วนตำบลห้วยยายจิ๋ว",
+        "short_name": "อบต.ห้วยยายจิ๋ว",
+        "type": "อบต.",
+        "amphoe": "เทพสถิต",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.huayyaijiw.go.th/select_news.php?news_id=888",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.59,
+          15.97
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 55,
+        "id": "OBT-055",
+        "name": "องค์การบริหารส่วนตำบลวะตะแบก",
+        "short_name": "อบต.วะตะแบก",
+        "type": "อบต.",
+        "amphoe": "เทพสถิต",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว (ปี 67)",
+        "url": "https://www.watabaek.go.th/fileupload/2025-03-108834792235.pdf",
+        "latest_year": "2567",
+        "note": "ล่าสุดปี 67"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.615,
+          15.98
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 58,
+        "id": "OBT-058",
+        "name": "องค์การบริหารส่วนตำบลหนองคู",
+        "short_name": "อบต.หนองคู",
+        "type": "อบต.",
+        "amphoe": "บ้านแท่น",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว (ปี 67)",
+        "url": "https://www.nongkhu.go.th/Dynamic_content/detail/finance/2",
+        "latest_year": "2567",
+        "note": "ล่าสุดปี 67"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.34,
+          16.47
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 59,
+        "id": "OBT-059",
+        "name": "องค์การบริหารส่วนตำบลสระพัง",
+        "short_name": "อบต.สระพัง",
+        "type": "อบต.",
+        "amphoe": "บ้านแท่น",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.srapung.go.th/Pages/finance_detail/8",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.345,
+          16.46
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 60,
+        "id": "OBT-060",
+        "name": "องค์การบริหารส่วนตำบลสามสวน",
+        "short_name": "อบต.สามสวน",
+        "type": "อบต.",
+        "amphoe": "บ้านแท่น",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "url": "https://samsuan.go.th/public/",
+        "latest_year": "",
+        "note": "หน้าหลัก"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.33,
+          16.475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 61,
+        "id": "OBT-061",
+        "name": "องค์การบริหารส่วนตำบลบ้านแท่น",
+        "short_name": "อบต.บ้านแท่น",
+        "type": "อบต.",
+        "amphoe": "บ้านแท่น",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "",
+        "latest_year": "",
+        "note": "รายงานการรับจ่ายเงินปี 2568"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.335,
+          16.455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 66,
+        "id": "OBT-066",
+        "name": "องค์การบริหารส่วนตำบลชีบน",
+        "short_name": "อบต.ชีบน",
+        "type": "อบต.",
+        "amphoe": "บ้านเขว้า",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.cheebon.go.th/select_news.php?news_id=908",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.93,
+          15.785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 67,
+        "id": "OBT-067",
+        "name": "องค์การบริหารส่วนตำบลภูแลนคา",
+        "short_name": "อบต.ภูแลนคา",
+        "type": "อบต.",
+        "amphoe": "บ้านเขว้า",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.phulanka.go.th/fileupload/2026-04-013214422394.pdf",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.94,
+          15.78
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 68,
+        "id": "OBT-068",
+        "name": "องค์การบริหารส่วนตำบลโนนแดง",
+        "short_name": "อบต.โนนแดง",
+        "type": "อบต.",
+        "amphoe": "บ้านเขว้า",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "url": "https://www.nondaeng.go.th/news.php?type_id=9",
+        "latest_year": "2563",
+        "note": "ล่าสุดปี 63"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.925,
+          15.77
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 71,
+        "id": "OBT-071",
+        "name": "องค์การบริหารส่วนตำบลโนนคูณ",
+        "short_name": "อบต.โนนคูณ",
+        "type": "อบต.",
+        "amphoe": "คอนสาร",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.nonkoon.go.th/1select_news.php?news_id=187",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.75,
+          16.595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 73,
+        "id": "OBT-073",
+        "name": "องค์การบริหารส่วนตำบลดงกลาง",
+        "short_name": "อบต.ดงกลาง",
+        "type": "อบต.",
+        "amphoe": "คอนสาร",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://dongklang.go.th/public/list/data/detail/id/3282/menu/1716/page/1/catid/110",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.755,
+          16.59
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 74,
+        "id": "OBT-074",
+        "name": "องค์การบริหารส่วนตำบลทุ่งพระ",
+        "short_name": "อบต.ทุ่งพระ",
+        "type": "อบต.",
+        "amphoe": "คอนสาร",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "url": "https://tambontungpha.go.th/document/financial_report",
+        "latest_year": "2564",
+        "note": "ล่าสุดปี 64"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.745,
+          16.585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 75,
+        "id": "OBT-075",
+        "name": "องค์การบริหารส่วนตำบลทุ่งนาเลา",
+        "short_name": "อบต.ทุ่งนาเลา",
+        "type": "อบต.",
+        "amphoe": "คอนสาร",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.thungnalao.go.th/project-detail?hd=34&id=33319",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.76,
+          16.595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 76,
+        "id": "OBT-076",
+        "name": "องค์การบริหารส่วนตำบลดงบัง",
+        "short_name": "อบต.ดงบัง",
+        "type": "อบต.",
+        "amphoe": "คอนสาร",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://dongbungks.go.th/public2025/detail?reYS9iQytydHpkSHlLemtWWUtlTXZmUT09",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.74,
+          16.58
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 77,
+        "id": "OBT-077",
+        "name": "องค์การบริหารส่วนตำบลคอนสาร",
+        "short_name": "อบต.คอนสาร",
+        "type": "อบต.",
+        "amphoe": "คอนสาร",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "url": "https://www.khonsanlocal.go.th/home",
+        "latest_year": "",
+        "note": "ไม่พบรายงาน"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.75,
+          16.58
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 80,
+        "id": "OBT-080",
+        "name": "องค์การบริหารส่วนตำบลนางแดด",
+        "short_name": "อบต.นางแดด",
+        "type": "อบต.",
+        "amphoe": "หนองบัวแดง",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://nangdad.go.th/public/list/data/detail/id/4294/menu/1716/page/1/catid/110",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.025,
+          15.955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 81,
+        "id": "OBT-081",
+        "name": "องค์การบริหารส่วนตำบลวังชมภู",
+        "short_name": "อบต.วังชมภู",
+        "type": "อบต.",
+        "amphoe": "หนองบัวแดง",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.wangchompu.go.th/project-detail?hd=34&id=30353",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.01,
+          15.95
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 82,
+        "id": "OBT-082",
+        "name": "องค์การบริหารส่วนตำบลถ้ำวัวแดง",
+        "short_name": "อบต.ถ้ำวัวแดง",
+        "type": "อบต.",
+        "amphoe": "หนองบัวแดง",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.thamwuadaeng.go.th/select_news.php?news_id=1068",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.03,
+          15.945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 83,
+        "id": "OBT-083",
+        "name": "องค์การบริหารส่วนตำบลท่าใหญ่",
+        "short_name": "อบต.ท่าใหญ่",
+        "type": "อบต.",
+        "amphoe": "หนองบัวแดง",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.thayai.go.th/news.php?id_type=11",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.015,
+          15.975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 84,
+        "id": "OBT-084",
+        "name": "องค์การบริหารส่วนตำบลคูเมือง",
+        "short_name": "อบต.คูเมือง",
+        "type": "อบต.",
+        "amphoe": "หนองบัวแดง",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.kumaung.go.th/catalog/news/812",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.035,
+          15.96
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 85,
+        "id": "OBT-085",
+        "name": "องค์การบริหารส่วนตำบลหนองแวง",
+        "short_name": "อบต.หนองแวง",
+        "type": "อบต.",
+        "amphoe": "หนองบัวแดง",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.nongwang-cpm.go.th/project-detail?hd=17&id=29806",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.005,
+          15.935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 86,
+        "id": "OBT-086",
+        "name": "องค์การบริหารส่วนตำบลกุดชุมแสง",
+        "short_name": "อบต.กุดชุมแสง",
+        "type": "อบต.",
+        "amphoe": "หนองบัวแดง",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.koodchumsang.go.th/fileupload/2026-02-237491040881.pdf",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.01,
+          15.98
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 88,
+        "id": "OBT-088",
+        "name": "องค์การบริหารส่วนตำบลห้วยไร่",
+        "short_name": "อบต.ห้วยไร่",
+        "type": "อบต.",
+        "amphoe": "คอนสวรรค์",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.huayraisao.go.th/select_news.php?news_id=1872",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.28,
+          15.935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 89,
+        "id": "OBT-089",
+        "name": "องค์การบริหารส่วนตำบลช่องสามหมอ",
+        "short_name": "อบต.ช่องสามหมอ",
+        "type": "อบต.",
+        "amphoe": "คอนสวรรค์",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "url": "https://www.chongsammor.go.th/news.php?id_type=11",
+        "latest_year": "2566",
+        "note": "ล่าสุดปี 66"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.29,
+          15.925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 90,
+        "id": "OBT-090",
+        "name": "องค์การบริหารส่วนตำบลศรีสำราญ",
+        "short_name": "อบต.ศรีสำราญ",
+        "type": "อบต.",
+        "amphoe": "คอนสวรรค์",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว (ปี 67)",
+        "url": "https://www.sisamran.go.th/Pages/finance_detail/5",
+        "latest_year": "2567",
+        "note": "ล่าสุดปี 67"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.275,
+          15.94
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 91,
+        "id": "OBT-091",
+        "name": "องค์การบริหารส่วนตำบลยางหวาย",
+        "short_name": "อบต.ยางหวาย",
+        "type": "อบต.",
+        "amphoe": "คอนสวรรค์",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว (ปี 67)",
+        "url": "https://www.yangwai.go.th/news.php?id_type=10",
+        "latest_year": "2567",
+        "note": "ล่าสุดปี 67"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.285,
+          15.92
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 92,
+        "id": "OBT-092",
+        "name": "องค์การบริหารส่วนตำบลโนนสะอาด",
+        "short_name": "อบต.โนนสะอาด",
+        "type": "อบต.",
+        "amphoe": "คอนสวรรค์",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "url": "https://www.nonsaard.go.th/index",
+        "latest_year": "",
+        "note": "ไม่พบรายงาน"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.27,
+          15.945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 93,
+        "id": "OBT-093",
+        "name": "องค์การบริหารส่วนตำบลหนองขาม",
+        "short_name": "อบต.หนองขาม",
+        "type": "อบต.",
+        "amphoe": "คอนสวรรค์",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.nongkhamsao.go.th/select_news.php?news_id=903",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.295,
+          15.93
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 94,
+        "id": "OBT-094",
+        "name": "องค์การบริหารส่วนตำบลบ้านโสก",
+        "short_name": "อบต.บ้านโสก",
+        "type": "อบต.",
+        "amphoe": "คอนสวรรค์",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "url": "https://bansok.go.th/public/",
+        "latest_year": "",
+        "note": "ไม่พบรายงาน"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.265,
+          15.95
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 95,
+        "id": "OBT-095",
+        "name": "องค์การบริหารส่วนตำบลโคกมั่งงอย",
+        "short_name": "อบต.โคกมั่งงอย",
+        "type": "อบต.",
+        "amphoe": "คอนสวรรค์",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.kokmungngoi.go.th/Pages/finance_detail/49",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.26,
+          15.915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 96,
+        "id": "OBT-096",
+        "name": "องค์การบริหารส่วนตำบลคอนสวรรค์",
+        "short_name": "อบต.คอนสวรรค์",
+        "type": "อบต.",
+        "amphoe": "คอนสวรรค์",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.khonsawansao.go.th/Pages/news_detail/145",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.255,
+          15.955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 100,
+        "id": "OBT-100",
+        "name": "องค์การบริหารส่วนตำบลบ้านขาม",
+        "short_name": "อบต.บ้านขาม",
+        "type": "อบต.",
+        "amphoe": "จัตุรัส",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.bankam.go.th/shownews.php?id=1411",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.845,
+          15.66
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 101,
+        "id": "OBT-101",
+        "name": "องค์การบริหารส่วนตำบลหนองบัวบาน",
+        "short_name": "อบต.หนองบัวบาน",
+        "type": "อบต.",
+        "amphoe": "จัตุรัส",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.nongbuaban.go.th/select_news.php?news_id=1268",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.83,
+          15.645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 102,
+        "id": "OBT-102",
+        "name": "องค์การบริหารส่วนตำบลหนองโดน",
+        "short_name": "อบต.หนองโดน",
+        "type": "อบต.",
+        "amphoe": "จัตุรัส",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.nongdon-sao.go.th/project_detail.php?hd=17&id=29809",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.85,
+          15.64
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 103,
+        "id": "OBT-103",
+        "name": "องค์การบริหารส่วนตำบลหนองบัวโคก",
+        "short_name": "อบต.หนองบัวโคก",
+        "type": "อบต.",
+        "amphoe": "จัตุรัส",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://nbk.go.th/select_news.php?news_id=1270",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.825,
+          15.665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 104,
+        "id": "OBT-104",
+        "name": "องค์การบริหารส่วนตำบลส้มป่อย",
+        "short_name": "อบต.ส้มป่อย",
+        "type": "อบต.",
+        "amphoe": "จัตุรัส",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.sompoi-cpm.go.th/news-detail?hd=2&id=60360",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.84,
+          15.67
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 105,
+        "id": "OBT-105",
+        "name": "องค์การบริหารส่วนตำบลกุดน้ำใส",
+        "short_name": "อบต.กุดน้ำใส",
+        "type": "อบต.",
+        "amphoe": "จัตุรัส",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "url": "https://www.kudnamsai.go.th/select_news.php?news_id=3351",
+        "latest_year": "",
+        "note": "ไม่แนบรายงาน"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.835,
+          15.635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 106,
+        "id": "OBT-106",
+        "name": "องค์การบริหารส่วนตำบลละหาน",
+        "short_name": "อบต.ละหาน",
+        "type": "อบต.",
+        "amphoe": "จัตุรัส",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "url": "https://www.tumbonlahan.go.th/select_news.php?news_id=5640",
+        "latest_year": "2565",
+        "note": "ล่าสุดปี 65"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.855,
+          15.645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 107,
+        "id": "OBT-107",
+        "name": "องค์การบริหารส่วนตำบลบ้านกอก",
+        "short_name": "อบต.บ้านกอก",
+        "type": "อบต.",
+        "amphoe": "จัตุรัส",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.baankok.go.th/select_news.php?news_id=1701",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.82,
+          15.66
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 111,
+        "id": "OBT-111",
+        "name": "องค์การบริหารส่วนตำบลเก่าย่าดี",
+        "short_name": "อบต.เก่าย่าดี",
+        "type": "อบต.",
+        "amphoe": "แก้งคร้อ",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.kaoyadee.go.th/news-detail?hd=2&id=64549",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.155,
+          16.11
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 112,
+        "id": "OBT-112",
+        "name": "องค์การบริหารส่วนตำบลหนองขาม",
+        "short_name": "อบต.หนองขาม",
+        "type": "อบต.",
+        "amphoe": "แก้งคร้อ",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "url": "https://www.tbnongkham.go.th/index.php/service-th/publications-th/155-inspection-unit-report",
+        "latest_year": "2565",
+        "note": "ล่าสุดปี 65"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.145,
+          16.09
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 113,
+        "id": "OBT-113",
+        "name": "องค์การบริหารส่วนตำบลหนองไผ่",
+        "short_name": "อบต.หนองไผ่",
+        "type": "อบต.",
+        "amphoe": "แก้งคร้อ",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.nongphai.go.th/project-rev2?hd=29",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.16,
+          16.095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 114,
+        "id": "OBT-114",
+        "name": "องค์การบริหารส่วนตำบลนาหนองทุ่ม",
+        "short_name": "อบต.นาหนองทุ่ม",
+        "type": "อบต.",
+        "amphoe": "แก้งคร้อ",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.nanongthum.go.th/select_news.php?news_id=1204",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.15,
+          16.115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 115,
+        "id": "OBT-115",
+        "name": "องค์การบริหารส่วนตำบลโคกกุง",
+        "short_name": "อบต.โคกกุง",
+        "type": "อบต.",
+        "amphoe": "แก้งคร้อ",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "url": "https://www.khokkung.go.th/home",
+        "latest_year": "",
+        "note": "หน้าหลัก"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.14,
+          16.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 116,
+        "id": "OBT-116",
+        "name": "องค์การบริหารส่วนตำบลหลุบคา",
+        "short_name": "อบต.หลุบคา",
+        "type": "อบต.",
+        "amphoe": "แก้งคร้อ",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.lupka.go.th/1select_news.php?news_id=304",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.155,
+          16.08
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 117,
+        "id": "OBT-117",
+        "name": "องค์การบริหารส่วนตำบลบ้านแก้ง",
+        "short_name": "อบต.บ้านแก้ง",
+        "type": "อบต.",
+        "amphoe": "แก้งคร้อ",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://drive.google.com/file/d/1gXQCym1iljbvxbW4kNB8nxcaSMy-3hra/view",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.148,
+          16.12
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 118,
+        "id": "OBT-118",
+        "name": "องค์การบริหารส่วนตำบลท่ามะไฟหวาน",
+        "short_name": "อบต.ท่ามะไฟหวาน",
+        "type": "อบต.",
+        "amphoe": "แก้งคร้อ",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.tamafaiwan.go.th/Pages/announce_detail/74",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.16,
+          16.105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 119,
+        "id": "OBT-119",
+        "name": "องค์การบริหารส่วนตำบลช่องสามหมอ",
+        "short_name": "อบต.ช่องสามหมอ",
+        "type": "อบต.",
+        "amphoe": "แก้งคร้อ",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://chongsammorlocal.go.th/select_news.php?news_id=1215",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.165,
+          16.09
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 123,
+        "id": "OBT-123",
+        "name": "องค์การบริหารส่วนตำบลบ้านบัว",
+        "short_name": "อบต.บ้านบัว",
+        "type": "อบต.",
+        "amphoe": "เกษตรสมบูรณ์",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://banbuasdt.go.th/select_news.php?news_id=952",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.005,
+          16.295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 124,
+        "id": "OBT-124",
+        "name": "องค์การบริหารส่วนตำบลสระโพนทอง",
+        "short_name": "อบต.สระโพนทอง",
+        "type": "อบต.",
+        "amphoe": "เกษตรสมบูรณ์",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.sraponthong.go.th/select_news.php?news_id=2125",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.99,
+          16.29
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 125,
+        "id": "OBT-125",
+        "name": "องค์การบริหารส่วนตำบลโนนกอก",
+        "short_name": "อบต.โนนกอก",
+        "type": "อบต.",
+        "amphoe": "เกษตรสมบูรณ์",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://nonkok.go.th/select_news.php?news_id=1701",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.985,
+          16.275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 127,
+        "id": "OBT-127",
+        "name": "องค์การบริหารส่วนตำบลกุดเลาะ",
+        "short_name": "อบต.กุดเลาะ",
+        "type": "อบต.",
+        "amphoe": "เกษตรสมบูรณ์",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "url": "https://kudlor.go.th/public/list/data/datacategory/catid/13/menu/1202",
+        "latest_year": "2563",
+        "note": "ล่าสุดปี 63"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.995,
+          16.29
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 128,
+        "id": "OBT-128",
+        "name": "องค์การบริหารส่วนตำบลบ้านเป้า",
+        "short_name": "อบต.บ้านเป้า",
+        "type": "อบต.",
+        "amphoe": "เกษตรสมบูรณ์",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "url": "https://banpao.go.th/?option=info2&id=3",
+        "latest_year": "2564",
+        "note": "ล่าสุดปี 64"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.98,
+          16.285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 130,
+        "id": "OBT-130",
+        "name": "องค์การบริหารส่วนตำบลหนองข่า",
+        "short_name": "อบต.หนองข่า",
+        "type": "อบต.",
+        "amphoe": "เกษตรสมบูรณ์",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://nongkha.go.th/news_ms.php?news_id=1112&type_id=29",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.975,
+          16.28
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 131,
+        "id": "OBT-131",
+        "name": "องค์การบริหารส่วนตำบลหนองโพนงาม",
+        "short_name": "อบต.หนองโพนงาม",
+        "type": "อบต.",
+        "amphoe": "เกษตรสมบูรณ์",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "url": "https://www.phulanka.go.th/index.php",
+        "latest_year": "",
+        "note": "หน้าหลัก"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.01,
+          16.27
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 132,
+        "id": "OBT-132",
+        "name": "องค์การบริหารส่วนตำบลบ้านหัน",
+        "short_name": "อบต.บ้านหัน",
+        "type": "อบต.",
+        "amphoe": "เกษตรสมบูรณ์",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "url": "https://fa8.naxapi.com/tambonbanhun.go.th/dnm_file/project/1775701798799_30536_center.pdf",
+        "latest_year": "",
+        "note": "ไม่แนบรายงาน"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.015,
+          16.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 137,
+        "id": "OBT-137",
+        "name": "องค์การบริหารส่วนตำบลหนองตูม",
+        "short_name": "อบต.หนองตูม",
+        "type": "อบต.",
+        "amphoe": "ภูเขียว",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://fa8.naxapi.com/nong-toom.go.th/dnm_file/project/1771990546054_30062_center.pdf",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.15,
+          16.37
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 138,
+        "id": "OBT-138",
+        "name": "องค์การบริหารส่วนตำบลกวางโจน",
+        "short_name": "อบต.กวางโจน",
+        "type": "อบต.",
+        "amphoe": "ภูเขียว",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "url": "https://www.cheebon.go.th/index.php",
+        "latest_year": "",
+        "note": "หน้าหลัก"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.13,
+          16.365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 139,
+        "id": "OBT-139",
+        "name": "องค์การบริหารส่วนตำบลหนองคอนไทย",
+        "short_name": "อบต.หนองคอนไทย",
+        "type": "อบต.",
+        "amphoe": "ภูเขียว",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว (ปี 67)",
+        "url": "https://www.tambonnonthong.go.th/select_news.php?news_id=847",
+        "latest_year": "2567",
+        "note": "ล่าสุดปี 67"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.135,
+          16.385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 140,
+        "id": "OBT-140",
+        "name": "องค์การบริหารส่วนตำบลผักปัง",
+        "short_name": "อบต.ผักปัง",
+        "type": "อบต.",
+        "amphoe": "ภูเขียว",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "url": "http://www.pakpang.go.th/index.php",
+        "latest_year": "",
+        "note": "หน้าหลัก"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.155,
+          16.375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 141,
+        "id": "OBT-141",
+        "name": "องค์การบริหารส่วนตำบลโอโล",
+        "short_name": "อบต.โอโล",
+        "type": "อบต.",
+        "amphoe": "ภูเขียว",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.olo.go.th/select_news.php?news_id=2403",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.14,
+          16.39
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 142,
+        "id": "OBT-142",
+        "name": "องค์การบริหารส่วนตำบลโคกสะอาด",
+        "short_name": "อบต.โคกสะอาด",
+        "type": "อบต.",
+        "amphoe": "ภูเขียว",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "",
+        "latest_year": "",
+        "note": "รายงานการเงินปี 2568 + สตง."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.125,
+          16.38
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 143,
+        "id": "OBT-143",
+        "name": "องค์การบริหารส่วนตำบลบ้านดอน",
+        "short_name": "อบต.บ้านดอน",
+        "type": "อบต.",
+        "amphoe": "ภูเขียว",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "url": "https://bandon-phukhieo.go.th/public/",
+        "latest_year": "",
+        "note": "หน้าหลัก"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.12,
+          16.39
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 145,
+        "id": "OBT-145",
+        "name": "องค์การบริหารส่วนตำบลกุดยม",
+        "short_name": "อบต.กุดยม",
+        "type": "อบต.",
+        "amphoe": "ภูเขียว",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "url": "https://www.goodyom.go.th/news-detail?hd=2&id=60322",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.16,
+          16.39
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 1,
+        "id": "GOV-001",
+        "name": "กรมจังหวัดชัยภูมิ",
+        "short_name": "กรมจังหวัด",
+        "type": "หน่วยงานราชการ",
+        "amphoe": "เมืองชัยภูมิ",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "url": "https://drive.google.com/file/d/1QwLGoBECjjnmz5SbRFG7uKcl-3S7HmnO/view",
+        "latest_year": "",
+        "note": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.035,
+          15.815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "order": 2,
+        "id": "UNI-001",
+        "name": "มหาวิทยาลัยราชภัฏชัยภูมิ",
+        "short_name": "มรภ.ชัยภูมิ",
+        "type": "มหาวิทยาลัย",
+        "amphoe": "เมืองชัยภูมิ",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว (ปี 68)",
+        "url": "https://www.cpru.ac.th/",
+        "latest_year": "2568",
+        "note": "ล่าสุดปี 68"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.0245,
+          15.8012
+        ]
+      }
+    }
+  ]
+}

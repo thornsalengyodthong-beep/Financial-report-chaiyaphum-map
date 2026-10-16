@@ -1,0 +1,385 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "province": "ชัยภูมิ",
+    "description": "หน่วยงานปกครองส่วนท้องถิ่นในจังหวัดชัยภูมิ",
+    "created": "2024-05-01"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "PAO-01",
+        "name": "องค์การบริหารส่วนจังหวัดชัยภูมิ",
+        "short_name": "อบจ.ชัยภูมิ",
+        "type": "อบจ.",
+        "amphoe": "เมืองชัยภูมิ",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "date": "2024-05-01",
+        "note": ""
+      },
+      "geometry": { "type": "Point", "coordinates": [102.0315, 15.8068] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TM-01",
+        "name": "เทศบาลเมืองชัยภูมิ",
+        "short_name": "ทม.ชัยภูมิ",
+        "type": "เทศบาลเมือง",
+        "amphoe": "เมืองชัยภูมิ",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "date": "2024-05-01",
+        "note": ""
+      },
+      "geometry": { "type": "Point", "coordinates": [102.0300, 15.8100] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TS-01",
+        "name": "เทศบาลตำบลเกษตรสมบูรณ์",
+        "short_name": "ทต.เกษตรสมบูรณ์",
+        "type": "เทศบาลตำบล",
+        "amphoe": "เกษตรสมบูรณ์",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "date": null,
+        "note": ""
+      },
+      "geometry": { "type": "Point", "coordinates": [101.9997, 16.2825] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TS-02",
+        "name": "เทศบาลตำบลบ้านเดื่อ",
+        "short_name": "ทต.บ้านเดื่อ",
+        "type": "เทศบาลตำบล",
+        "amphoe": "เกษตรสมบูรณ์",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "date": null,
+        "note": ""
+      },
+      "geometry": { "type": "Point", "coordinates": [101.9997, 16.2825] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TS-03",
+        "name": "เทศบาลตำบลบ้านเป้า",
+        "short_name": "ทต.บ้านเป้า",
+        "type": "เทศบาลตำบล",
+        "amphoe": "เกษตรสมบูรณ์",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "date": null,
+        "note": ""
+      },
+      "geometry": { "type": "Point", "coordinates": [101.9997, 16.2825] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TS-04",
+        "name": "เทศบาลตำบลแก้งคร้อ",
+        "short_name": "ทต.แก้งคร้อ",
+        "type": "เทศบาลตำบล",
+        "amphoe": "แก้งคร้อ",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "date": null,
+        "note": ""
+      },
+      "geometry": { "type": "Point", "coordinates": [102.1503, 16.1025] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TS-05",
+        "name": "เทศบาลตำบลคอนสวรรค์",
+        "short_name": "ทต.คอนสวรรค์",
+        "type": "เทศบาลตำบล",
+        "amphoe": "คอนสวรรค์",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "date": null,
+        "note": ""
+      },
+      "geometry": { "type": "Point", "coordinates": [102.2831, 15.9322] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TS-06",
+        "name": "เทศบาลตำบลจัตุรัส",
+        "short_name": "ทต.จัตุรัส",
+        "type": "เทศบาลตำบล",
+        "amphoe": "จัตุรัส",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "date": null,
+        "note": ""
+      },
+      "geometry": { "type": "Point", "coordinates": [101.8361, 15.6525] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TS-07",
+        "name": "เทศบาลตำบลภูเขียว",
+        "short_name": "ทต.ภูเขียว",
+        "type": "เทศบาลตำบล",
+        "amphoe": "ภูเขียว",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "date": null,
+        "note": ""
+      },
+      "geometry": { "type": "Point", "coordinates": [102.1411, 16.3747] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TS-08",
+        "name": "เทศบาลตำบลหนองบัวแดง",
+        "short_name": "ทต.หนองบัวแดง",
+        "type": "เทศบาลตำบล",
+        "amphoe": "หนองบัวแดง",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "date": null,
+        "note": ""
+      },
+      "geometry": { "type": "Point", "coordinates": [102.0167, 15.9667] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TS-09",
+        "name": "เทศบาลตำบลหนองบัวระเหว",
+        "short_name": "ทต.หนองบัวระเหว",
+        "type": "เทศบาลตำบล",
+        "amphoe": "หนองบัวระเหว",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "date": null,
+        "note": ""
+      },
+      "geometry": { "type": "Point", "coordinates": [101.7500, 15.8750] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TS-10",
+        "name": "เทศบาลตำบลบ้านเขว้า",
+        "short_name": "ทต.บ้านเขว้า",
+        "type": "เทศบาลตำบล",
+        "amphoe": "บ้านเขว้า",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "date": null,
+        "note": ""
+      },
+      "geometry": { "type": "Point", "coordinates": [101.9372, 15.7742] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TS-11",
+        "name": "เทศบาลตำบลบำเหน็จณรงค์",
+        "short_name": "ทต.บำเหน็จณรงค์",
+        "type": "เทศบาลตำบล",
+        "amphoe": "บำเหน็จณรงค์",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "date": null,
+        "note": ""
+      },
+      "geometry": { "type": "Point", "coordinates": [101.7081, 15.7963] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TS-12",
+        "name": "เทศบาลตำบลคอนสาร",
+        "short_name": "ทต.คอนสาร",
+        "type": "เทศบาลตำบล",
+        "amphoe": "คอนสาร",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "date": null,
+        "note": ""
+      },
+      "geometry": { "type": "Point", "coordinates": [101.7533, 16.5892] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TS-13",
+        "name": "เทศบาลตำบลเทพสถิต",
+        "short_name": "ทต.เทพสถิต",
+        "type": "เทศบาลตำบล",
+        "amphoe": "เทพสถิต",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "date": null,
+        "note": ""
+      },
+      "geometry": { "type": "Point", "coordinates": [101.5967, 15.9819] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TS-14",
+        "name": "เทศบาลตำบลบ้านแท่น",
+        "short_name": "ทต.บ้านแท่น",
+        "type": "เทศบาลตำบล",
+        "amphoe": "บ้านแท่น",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "date": null,
+        "note": ""
+      },
+      "geometry": { "type": "Point", "coordinates": [102.3333, 16.4667] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TS-15",
+        "name": "เทศบาลตำบลชีลอง",
+        "short_name": "ทต.ชีลอง",
+        "type": "เทศบาลตำบล",
+        "amphoe": "เมืองชัยภูมิ",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "date": null,
+        "note": ""
+      },
+      "geometry": { "type": "Point", "coordinates": [102.0315, 15.8068] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "OBT-01",
+        "name": "องค์การบริหารส่วนตำบลกวางโจน",
+        "short_name": "อบต.กวางโจน",
+        "type": "อบต.",
+        "amphoe": "ภูเขียว",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "date": null,
+        "note": ""
+      },
+      "geometry": { "type": "Point", "coordinates": [102.1411, 16.3747] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "OBT-02",
+        "name": "องค์การบริหารส่วนตำบลกุดตุ้ม",
+        "short_name": "อบต.กุดตุ้ม",
+        "type": "อบต.",
+        "amphoe": "เมืองชัยภูมิ",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "date": null,
+        "note": ""
+      },
+      "geometry": { "type": "Point", "coordinates": [102.0315, 15.8068] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "OBT-03",
+        "name": "องค์การบริหารส่วนตำบลคอนสวรรค์",
+        "short_name": "อบต.คอนสวรรค์",
+        "type": "อบต.",
+        "amphoe": "คอนสวรรค์",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "date": null,
+        "note": ""
+      },
+      "geometry": { "type": "Point", "coordinates": [102.2831, 15.9322] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "OBT-04",
+        "name": "องค์การบริหารส่วนตำบลคอนสาร",
+        "short_name": "อบต.คอนสาร",
+        "type": "อบต.",
+        "amphoe": "คอนสาร",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "date": null,
+        "note": ""
+      },
+      "geometry": { "type": "Point", "coordinates": [101.7533, 16.5892] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "OBT-05",
+        "name": "องค์การบริหารส่วนตำบลช่องสามหมอ",
+        "short_name": "อบต.ช่องสามหมอ",
+        "type": "อบต.",
+        "amphoe": "คอนสวรรค์",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "date": null,
+        "note": ""
+      },
+      "geometry": { "type": "Point", "coordinates": [102.2831, 15.9322] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "OBT-06",
+        "name": "องค์การบริหารส่วนตำบลซับใหญ่",
+        "short_name": "อบต.ซับใหญ่",
+        "type": "อบต.",
+        "amphoe": "ซับใหญ่",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "date": null,
+        "note": ""
+      },
+      "geometry": { "type": "Point", "coordinates": [101.6167, 15.7167] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "OBT-07",
+        "name": "องค์การบริหารส่วนตำบลเฉาทอง",
+        "short_name": "อบต.เฉาทอง",
+        "type": "อบต.",
+        "amphoe": "ภักดีชุมพล",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "date": null,
+        "note": ""
+      },
+      "geometry": { "type": "Point", "coordinates": [101.5833, 15.9167] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "OBT-08",
+        "name": "องค์การบริหารส่วนตำบลกุดชุมแสง",
+        "short_name": "อบต.กุดชุมแสง",
+        "type": "อบต.",
+        "amphoe": "หนองบัวแดง",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "date": null,
+        "note": ""
+      },
+      "geometry": { "type": "Point", "coordinates": [102.0167, 15.9667] }
+    }
+  ]
+}

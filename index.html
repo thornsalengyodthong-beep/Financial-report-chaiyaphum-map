@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>แผนที่สถานะ อปท. จังหวัดชัยภูมิ</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css"/>
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css"/>
+<link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:'Sarabun',sans-serif}
+#map{height:100vh;width:100%}
+.logo-badge{position:absolute;top:10px;left:10px;z-index:1000;background:#fff;padding:8px 14px 8px 10px;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,.25);display:flex;align-items:center;gap:10px;font-size:13px;font-weight:600;color:#222}
+.logo-badge svg{display:block;flex-shrink:0}
+.logo-badge .title{line-height:1.3}
+.logo-badge .subtitle{font-size:11px;font-weight:400;color:#666}
+.filter-bar{position:absolute;top:10px;left:50%;transform:translateX(-50%);z-index:1000;background:#fff;padding:10px 16px;border-radius:12px;box-shadow:0 4px 14px rgba(0,0,0,.25);display:flex;gap:10px;align-items:center;flex-wrap:wrap;max-width:98vw;font-size:13px}
+.filter-group{display:flex;align-items:center;gap:6px}
+.filter-group label{font-weight:600;color:#333;white-space:nowrap}
+.filter-bar select,.filter-bar input[type="text"]{padding:5px 10px;border:1px solid #ccc;border-radius:6px;font-family:inherit;font-size:13px;background:#fff}
+.filter-bar input[type="text"]{width:180px}
+.filter-count{font-weight:700;color:#1e88e5;white-space:nowrap}
+.btn{padding:5px 12px;border-radius:6px;font-family:inherit;font-size:12px;cursor:pointer;font-weight:600;transition:all .2s;border:1px solid}
+.btn.reset{border-color:#dc3545;background:#fff;color:#dc3545}
+.btn.reset:hover{background:#dc3545;color:#fff}
+.btn.pending{border-color:#dc3545;background:#fff;color:#dc3545}
+.btn.pending:hover{background:#dc3545;color:#fff}
+.btn.done{border-color:#28a745;background:#fff;color:#28a745}
+.btn.done:hover{background:#28a745;color:#fff}
+.btn.all{border-color:#1e88e5;background:#fff;color:#1e88e5}
+.btn.all:hover{background:#1e88e5;color:#fff}
+.btn.dashboard{border-color:#9013fe;background:#9013fe;color:#fff}
+.btn.dashboard:hover{background:#6a0dad}
+.btn.print{border-color:#333;background:#333;color:#fff}
+.btn.print:hover{background:#000}
+.pin{width:36px;height:36px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);display:flex;align-items:center;justify-content:center;border:3px solid #fff;box-shadow:0 3px 8px rgba(0,0,0,.45)}
+.pin span{transform:rotate(45deg);color:#fff;font-weight:700;font-size:14px;line-height:1}
+.pin.year-68{background:#1b8a3a}
+.pin.year-67{background:#5cb85c}
+.pin.year-66{background:#f0ad4e}
+.pin.year-65{background:#e87d0d}
+.pin.year-64{background:#c9302c}
+.pin.old{background:#6c757d}
+.pin.pending{background:#dc3545}
+.legend{background:#fff;padding:12px 16px;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,.25);font-size:13px;line-height:1.8;max-width:300px}
+.legend h4{margin:0 0 8px;font-size:15px;color:#222}
+.legend .row{display:flex;align-items:center;gap:6px}
+.legend .dot{display:inline-block;width:16px;height:16px;border-radius:50%;flex-shrink:0;border:2px solid #fff;box-shadow:0 0 0 1px rgba(0,0,0,.15)}
+.legend hr{border:none;border-top:1px solid #eee;margin:8px 0}
+.stats{background:#fff;padding:12px 16px;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,.25);font-size:13px;line-height:1.7;min-width:240px}
+.stats h4{margin:0 0 6px;font-size:14px}
+.stats table{width:100%;border-collapse:collapse}
+.stats td{padding:2px 4px}
+.stats .num{text-align:right;font-weight:700}
+.popup-title{font-weight:700;font-size:15px;margin-bottom:4px;color:#222}
+.popup-row{font-size:13px;line-height:1.7}
+.popup-link{display:inline-block;margin-top:6px;padding:4px 10px;background:#1e88e5;color:#fff;text-decoration:none;border-radius:6px;font-size:12px}
+.modal{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.5);z-index:2000;justify-content:center;align-items:center;padding:20px}
+.modal.active{display:flex}
+.modal-content{background:#fff;border-radius:16px;padding:24px;max-width:1000px;width:100%;max-height:90vh;overflow-y:auto;box-shadow:0 20px 60px rgba(0,0,0,.3)}
+.modal-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;padding-bottom:12px;border-bottom:2px solid #eee}
+.modal-header h2{margin:0;font-size:22px;color:#222}
+.modal-close{background:#dc3545;color:#fff;border:none;width:36px;height:36px;border-radius:50%;font-size:20px;cursor:pointer;font-weight:700}
+.modal-close:hover{background:#c82333}
+.kpi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;margin-bottom:24px}
+.kpi-card{background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);color:#fff;padding:20px;border-radius:12px;text-align:center}
+.kpi-card.green{background:linear-gradient(135deg,#11998e 0%,#38ef7d 100%)}
+.kpi-card.red{background:linear-gradient(135deg,#eb3349 0%,#f45c43 100%)}
+.kpi-card.blue{background:linear-gradient(135deg,#2193b0 0%,#6dd5ed 100%)}
+.kpi-value{font-size:36px;font-weight:700;margin:8px 0}
+.kpi-label{font-size:13px;opacity:.9}
+.chart-container{margin-bottom:24px}
+.chart-container h3{margin:0 0 12px;font-size:16px;color:#333;padding-bottom:8px;border-bottom:1px solid #eee}
+.bar-row{display:flex;align-items:center;gap:8px;margin-bottom:8px;font-size:13px}
+.bar-label{min-width:120px;font-weight:600;text-align:right}
+.bar-track{flex:1;background:#f0f0f0;height:24px;border-radius:12px;overflow:hidden}
+.bar-fill{height:100%;border-radius:12px;transition:width .5s;display:flex;align-items:center;padding-right:8px;justify-content:flex-end;color:#fff;font-weight:700;font-size:11px}
+.bar-fill.green{background:linear-gradient(90deg,#28a745,#20c997)}
+@media print{.filter-bar,.legend,.stats,.modal-close,.logo-badge,.leaflet-control-zoom,.leaflet-control-attribution{display:none !important}}
+</style>
+</head>
+<body>
+<div class="logo-badge">
+<svg width="50" height="50" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e3f2fd"/><stop offset="100%" stop-color="#bbdefb"/></linearGradient>
+<linearGradient id="m1" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2d6a2d"/><stop offset="100%" stop-color="#1b5e20"/></linearGradient>
+<linearGradient id="m2" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#43a047"/><stop offset="100%" stop-color="#2e7d32"/></linearGradient>
+<linearGradient id="sun" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ffd54f"/><stop offset="100%" stop-color="#f0ad4e"/></linearGradient>
+</defs>
+<rect width="100" height="100" rx="50" fill="url(#sky)"/>
+<circle cx="50" cy="28" r="9" fill="url(#sun)"/>
+<polygon points="5,80 28,38 51,80" fill="url(#m1)"/>
+<polygon points="28,80 55,25 82,80" fill="url(#m2)"/>
+<polygon points="55,80 75,45 95,80" fill="url(#m1)"/>
+<rect x="0" y="78" width="100" height="22" fill="#5cb85c"/>
+<path d="M0,80 Q25,75 50,80 T100,80 L100,100 L0,100 Z" fill="#4caf50"/>
+</svg>
+<div class="title">แผนที่สถานะ อปท.<br><span class="subtitle">จังหวัดชัยภูมิ</span></div>
+</div>
+<div class="filter-bar">
+<div class="filter-group"><label>🔍 ค้นหา:</label><input type="text" id="searchBox" placeholder="พิมพ์ชื่อหน่วยงาน..."></div>
+<div class="filter-group"><label>ประเภท:</label><select id="filterType"><option value="all">ทั้งหมด</option><option value="อบจ.">อบจ.</option><option value="เทศบาลเมือง">เทศบาลเมือง</option><option value="เทศบาลตำบล">เทศบาลตำบล</option><option value="อบต.">อบต.</option><option value="หน่วยงานราชการ">หน่วยงานราชการ</option><option value="มหาวิทยาลัย">มหาวิทยาลัย</option></select></div>
+<div class="filter-group"><label>ปี:</label><select id="filterYear"><option value="all">ทั้งหมด</option><option value="68">ปี 68</option><option value="67">ปี 67</option><option value="66">ปี 66</option><option value="65">ปี 65</option><option value="64">ปี 64 หรือเก่า</option><option value="old">ไม่ระบุปี</option><option value="pending">ยังไม่ทำ</option></select></div>
+<div class="filter-group"><label>อำเภอ:</label><select id="filterAmphoe"><option value="all">ทั้งหมด</option></select></div>
+<span class="filter-count" id="filterCount">—</span>
+<button class="btn reset" id="filterReset">↺ ล้าง</button>
+<button class="btn pending" id="exportPending">📥 ยังไม่ทำ</button>
+<button class="btn done" id="exportDone">📥 ดำเนินการ</button>
+<button class="btn all" id="exportAll">📥 ทั้งหมด</button>
+<button class="btn dashboard" id="openDashboard">📊 Dashboard</button>
+<button class="btn print" id="printBtn">📄 พิมพ์</button>
+</div>
+<div id="map"></div>
+<div class="modal" id="dashboardModal">
+<div class="modal-content">
+<div class="modal-header"><h2>📊 Dashboard สถิติ</h2><button class="modal-close" id="closeDashboard">✕</button></div>
+<div id="dashboardBody"></div>
+</div>
+</div>
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script>
+var map=L.map('map',{center:[15.8068,102.0315],zoom:9});
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'© OpenStreetMap',maxZoom:19}).addTo(map);
+
+function getYearClass(p){
+if(p.status==='pending')return{cls:'pending',year:'X'};
+var y=String(p.latest_year||'').trim();
+if(y==='2568'||y==='68')return{cls:'year-68',year:'2568'};
+if(y==='2567'||y==='67')return{cls:'year-67',year:'2567'};
+if(y==='2566'||y==='66')return{cls:'year-66',year:'2566'};
+if(y==='2565'||y==='65')return{cls:'year-65',year:'2565'};
+if(y==='2564'||y==='64')return{cls:'year-64',year:'2564'};
+if(y&&parseInt(y)>2500&&parseInt(y)<2564)return{cls:'year-64',year:y};
+return{cls:'old',year:'-'};
+}
+
+function getYearGroup(p){
+if(p.status==='pending')return'pending';
+var y=String(p.latest_year||'').trim();
+if(y==='2568'||y==='68')return'68';
+if(y==='2567'||y==='67')return'67';
+if(y==='2566'||y==='66')return'66';
+if(y==='2565'||y==='65')return'65';
+if(y==='2564'||y==='64')return'64';
+if(y&&parseInt(y)>2500&&parseInt(y)<2564)return'64';
+return'old';
+}
+
+function makeIcon(p){
+var info=getYearClass(p);
+var symbol='-';
+if(p.status==='pending')symbol='X';
+else if(info.year==='2568')symbol='68';
+else if(info.year==='2567')symbol='67';
+else if(info.year==='2566')symbol='66';
+else if(info.year==='2565')symbol='65';
+else if(info.year==='2564')symbol='64';
+return L.divIcon({className:'',html:'<div class="pin '+info.cls+'"><span>'+symbol+'</span></div>',iconSize:[36,36],iconAnchor:[18,36],popupAnchor:[0,-36]});
+}
+
+var clusterGroup=L.markerClusterGroup({
+showCoverageOnHover:false,maxClusterRadius:50,
+iconCreateFunction:function(c){
+var n=c.getChildCount();
+return L.divIcon({html:'<div style="width:40px;height:40px;border-radius:50%;background:#1e88e5;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;border:3px solid #fff;box-shadow:0 2px 8px rgba(0,0,0,.4);">'+n+'</div>',className:'',iconSize:[40,40]});
+}
+});
+map.addLayer(clusterGroup);
+
+var allFeatures=[];
+var allLayers=[];
+
+fetch('data/chaiyaphum-v2-all.geojson')
+.then(function(res){
+if(!res.ok)throw new Error('Load failed: '+res.status);
+return res.json();
+})
+.then(function(geojson){
+allFeatures=geojson.features;
+allFeatures.forEach(function(f){
+var p=f.properties;
+var c=f.geometry.coordinates;
+var lng=c[0],lat=c[1];
+var statusTxt=p.status==='done'?'ดำเนินการแล้ว':'ยังไม่ดำเนินการ';
+var yearTxt=p.latest_year?'ปี '+p.latest_year:'ไม่ระบุปี';
+var html='<div class="popup-title">'+p.name+'</div>'
++'<div class="popup-row"><b>ประเภท:</b> '+p.type+'</div>'
++'<div class="popup-row"><b>อำเภอ:</b> '+(p.amphoe||'-')+'</div>'
++'<div class="popup-row" style="margin-top:6px;"><b>สถานะ:</b> '+statusTxt+'</div>'
++'<div class="popup-row"><b>ปีล่าสุด:</b> '+yearTxt+'</div>';
+if(p.note)html+='<div class="popup-row"><b>หมายเหตุ:</b> '+p.note+'</div>';
+if(p.url&&p.url.indexOf('http')===0)html+='<a class="popup-link" href="'+p.url+'" target="_blank">🔗 เปิดรายงาน</a>';
+var marker=L.marker([lat,lng],{icon:makeIcon(p)});
+marker.bindPopup(html);
+marker.bindTooltip(p.short_name||p.name,{direction:'top',offset:[0,-32]});
+marker._props=p;
+marker._yearGroup=getYearGroup(p);
+allLayers.push(marker);
+});
+clusterGroup.addLayers(allLayers);
+if(allLayers.length>0)map.fitBounds(clusterGroup.getBounds(),{padding:[40,40]});
+var amphoes=[];
+allFeatures.forEach(function(f){
+var a=f.properties.amphoe;
+if(a&&amphoes.indexOf(a)===-1)amphoes.push(a);
+});
+amphoes.sort();
+var selA=document.getElementById('filterAmphoe');
+amphoes.forEach(function(a){
+var o=document.createElement('option');
+o.value=a;o.textContent=a;selA.appendChild(o);
+});
+addLegend();
+updateStats(allFeatures);
+applyFilters();
+})
+.catch(function(err){
+console.error(err);
+alert('เกิดข้อผิดพลาด: '+err.message);
+});
+
+function applyFilters(){
+var type=document.getElementById('filterType').value;
+var year=document.getElementById('filterYear').value;
+var amphoe=document.getElementById('filterAmphoe').value;
+var search=document.getElementById('searchBox').value.trim().toLowerCase();
+clusterGroup.clearLayers();
+var filtered=allLayers.filter(function(m){
+var p=m._props;
+if(type!=='all'&&p.type!==type)return false;
+if(year!=='all'&&m._yearGroup!==year)return false;
+if(amphoe!=='all'&&p.amphoe!==amphoe)return false;
+if(search){
+var name=(p.name||'').toLowerCase();
+var short=(p.short_name||'').toLowerCase();
+if(name.indexOf(search)===-1&&short.indexOf(search)===-1)return false;
+}
+return true;
+});
+clusterGroup.addLayers(filtered);
+document.getElementById('filterCount').textContent='แสดง '+filtered.length+' / '+allLayers.length+' แห่ง';
+var ff=filtered.map(function(m){return{properties:m._props};});
+updateStats(ff);
+if(search&&filtered.length>0&&filtered.length<=10){
+var bounds=L.latLngBounds(filtered.map(function(m){return m.getLatLng();}));
+map.fitBounds(bounds,{padding:[80,80],maxZoom:13});
+}
+}
+
+document.getElementById('filterType').addEventListener('change',applyFilters);
+document.getElementById('filterYear').addEventListener('change',applyFilters);
+document.getElementById('filterAmphoe').addEventListener('change',applyFilters);
+document.getElementById('searchBox').addEventListener('input',applyFilters);
+
+document.getElementById('filterReset').addEventListener('click',function(){
+document.getElementById('filterType').value='all';
+document.getElementById('filterYear').value='all';
+document.getElementById('filterAmphoe').value='all';
+document.getElementById('searchBox').value='';
+applyFilters();
+map.fitBounds(clusterGroup.getBounds(),{padding:[40,40]});
+});
+
+function exportCSV(mode){
+var type=document.getElementById('filterType').value;
+var year=document.getElementById('filterYear').value;
+var amphoe=document.getElementById('filterAmphoe').value;
+var search=document.getElementById('searchBox').value.trim().toLowerCase();
+var filtered=allLayers.filter(function(m){
+var p=m._props;
+if(mode==='pending'&&p.status!=='pending')return false;
+if(mode==='done'&&p.status!=='done')return false;
+if(type!=='all'&&p.type!==type)return false;
+if(year!=='all'&&m._yearGroup!==year)return false;
+if(amphoe!=='all'&&p.amphoe!==amphoe)return false;
+if(search){
+var name=(p.name||'').toLowerCase();
+var short=(p.short_name||'').toLowerCase();
+if(name.indexOf(search)===-1&&short.indexOf(search)===-1)return false;
+}
+return true;
+});
+if(filtered.length===0){alert('ไม่มีข้อมูล');return;}
+var headers=['ลำดับ','ชื่อหน่วยงาน','ประเภท','อำเภอ','สถานะ','ปีล่าสุด','หมายเหตุ','ลิงก์'];
+var rows=filtered.map(function(m,i){
+var p=m._props;
+return[i+1,p.name||'',p.type||'',p.amphoe||'',p.status==='done'?'ดำเนินการแล้ว':'ยังไม่ดำเนินการ',p.latest_year||'',p.note||'',p.url||''];
+});
+function esc(v){
+var s=String(v);
+if(s.indexOf(',')!==-1||s.indexOf('"')!==-1||s.indexOf('\n')!==-1)return '"'+s.replace(/"/g,'""')+'"';
+return s;
+}
+var lines=[headers.map(esc).join(',')];
+rows.forEach(function(r){lines.push(r.map(esc).join(','));});
+var csv='\uFEFF'+lines.join('\r\n');
+var blob=new Blob([csv],{type:'text/csv;charset=utf-8;'});
+var a=document.createElement('a');
+var url=URL.createObjectURL(blob);
+var d=new Date().toISOString().slice(0,10);
+var parts=['units',mode];
+if(type!=='all')parts.push(type.replace('เทศบาล','tm').replace('อบต.','obt').replace('อบจ.','pao'));
+if(amphoe!=='all')parts.push(amphoe);
+a.href=url;
+a.download=parts.join('_')+'_'+d+'.csv';
+document.body.appendChild(a);
+a.click();
+document.body.removeChild(a);
+URL.revokeObjectURL(url);
+}
+
+document.getElementById('exportPending').addEventListener('click',function(){exportCSV('pending');});
+document.getElementById('exportDone').addEventListener('click',function(){exportCSV('done');});
+document.getElementById('exportAll').addEventListener('click',function(){exportCSV('all');});
+
+function addLegend(){
+var legend=L.control({position:'bottomright'});
+legend.onAdd=function(){
+var div=L.DomUtil.create('div','legend');
+div.innerHTML='<h4>สัญลักษณ์ (สีตามปีล่าสุด)</h4>'
++'<div class="row"><span class="dot" style="background:#1b8a3a"></span> ปี 2568 (ใหม่สุด)</div>'
++'<div class="row"><span class="dot" style="background:#5cb85c"></span> ปี 2567</div>'
++'<div class="row"><span class="dot" style="background:#f0ad4e"></span> ปี 2566</div>'
++'<div class="row"><span class="dot" style="background:#e87d0d"></span> ปี 2565</div>'
++'<div class="row"><span class="dot" style="background:#c9302c"></span> ปี 2564 หรือเก่ากว่า</div>'
++'<div class="row"><span class="dot" style="background:#6c757d"></span> ไม่ระบุปี</div>'
++'<hr>'
++'<div class="row"><span class="dot" style="background:#dc3545"></span> ยังไม่ดำเนินการ</div>';
+return div;
+};
+legend.addTo(map);
+}
+
+var statsControl=null;
+
+function updateStats(features){
+var yearCounts={'2568':0,'2567':0,'2566':0,'2565':0,'2564 หรือเก่า':0,'ไม่ระบุ':0};
+var done=0,pending=0;
+features.forEach(function(f){
+var p=f.properties;
+if(p.status==='pending'){pending++;return;}
+done++;
+var y=String(p.latest_year||'').trim();
+if(y==='2568'||y==='68')yearCounts['2568']++;
+else if(y==='2567'||y==='67')yearCounts['2567']++;
+else if(y==='2566'||y==='66')yearCounts['2566']++;
+else if(y==='2565'||y==='65')yearCounts['2565']++;
+else if(y&&parseInt(y)>2500&&parseInt(y)<=2564)yearCounts['2564 หรือเก่า']++;
+else yearCounts['ไม่ระบุ']++;
+});
+if(statsControl)map.removeControl(statsControl);
+statsControl=L.control({position:'bottomleft'});
+statsControl.onAdd=function(){
+var div=L.DomUtil.create('div','stats');
+var rows='';
+var cm={'2568':'#1b8a3a','2567':'#5cb85c','2566':'#f0ad4e','2565':'#e87d0d','2564 หรือเก่า':'#c9302c','ไม่ระบุ':'#6c757d'};
+for(var y in yearCounts){
+var c=yearCounts[y];
+if(c===0)continue;
+rows+='<tr><td><span style="display:inline-block;width:12px;height:12px;background:'+cm[y]+';border-radius:50%;margin-right:6px;vertical-align:middle;"></span>ปี '+y+'</td><td class="num">'+c+'</td></tr>';
+}
+div.innerHTML='<h4>สถิติตามปีล่าสุด</h4><table>'+rows
++'<tr style="border-top:1px solid #eee;font-weight:700;"><td>✔ ดำเนินการแล้ว</td><td class="num" style="color:#28a745">'+done+'</td></tr>'
++'<tr style="font-weight:700;"><td>✖ ยังไม่ดำเนินการ</td><td class="num" style="color:#dc3545">'+pending+'</td></tr>'
++'<tr style="border-top:2px solid #333;font-weight:700;"><td>รวมทั้งหมด</td><td class="num">'+(done+pending)+'</td></tr></table>';
+return div;
+};
+statsControl.addTo(map);
+}
+
+document.getElementById('openDashboard').addEventListener('click',function(){
+renderDashboard();
+document.getElementById('dashboardModal').classList.add('active');
+});
+document.getElementById('closeDashboard').addEventListener('click',function(){
+document.getElementById('dashboardModal').classList.remove('active');
+});
+
+function renderDashboard(){
+var amphoeStats={};
+allFeatures.forEach(function(f){
+var p=f.properties;
+var a=p.amphoe||'ไม่ระบุ';
+if(!amphoeStats[a])amphoeStats[a]={done:0,pending:0};
+if(p.status==='done')amphoeStats[a].done++;
+else amphoeStats[a].pending++;
+});
+var typeStats={};
+allFeatures.forEach(function(f){
+var p=f.properties;
+var t=p.type||'อื่นๆ';
+if(!typeStats[t])typeStats[t]={done:0,pending:0};
+if(p.status==='done')typeStats[t].done++;
+else typeStats[t].pending++;
+});
+var yearStats={'2568':0,'2567':0,'2566':0,'2565':0,'2564 หรือเก่า':0,'ไม่ระบุ':0};
+allFeatures.forEach(function(f){
+var p=f.properties;
+if(p.status!=='done')return;
+var y=String(p.latest_year||'').trim();
+if(y==='2568'||y==='68')yearStats['2568']++;
+else if(y==='2567'||y==='67')yearStats['2567']++;
+else if(y==='2566'||y==='66')yearStats['2566']++;
+else if(y==='2565'||y==='65')yearStats['2565']++;
+else if(y&&parseInt(y)>2500&&parseInt(y)<=2564)yearStats['2564 หรือเก่า']++;
+else yearStats['ไม่ระบุ']++;
+});
+var total=allFeatures.length;
+var totalDone=allFeatures.filter(function(f){return f.properties.status==='done';}).length;
+var totalPending=total-totalDone;
+var percent=((totalDone/total)*100).toFixed(1);
+
+var amphoeArr=Object.keys(amphoeStats).map(function(k){return[k,amphoeStats[k]];});
+amphoeArr.sort(function(a,b){return(b[1].done+b[1].pending)-(a[1].done+a[1].pending);});
+var maxA=Math.max.apply(null,amphoeArr.map(function(e){return e[1].done+e[1].pending;}));
+var amphoeBars='';
+amphoeArr.forEach(function(item){
+var name=item[0],s=item[1];
+var ta=s.done+s.pending;
+var pct=(ta/maxA)*100;
+amphoeBars+='<div class="bar-row"><div class="bar-label">'+name+'</div><div class="bar-track"><div class="bar-fill green" style="width:'+pct+'%;">'+(s.done>0?s.done:'')+'</div></div><div style="min-width:50px;text-align:right;font-size:12px;">'+s.done+'/'+ta+'</div></div>';
+});
+
+var typeArr=Object.keys(typeStats).map(function(k){return[k,typeStats[k]];});
+typeArr.sort(function(a,b){return(b[1].done+b[1].pending)-(a[1].done+a[1].pending);});
+var maxT=Math.max.apply(null,typeArr.map(function(e){return e[1].done+e[1].pending;}));
+var typeBars='';
+typeArr.forEach(function(item){
+var name=item[0],s=item[1];
+var tt=s.done+s.pending;
+var pct=(tt/maxT)*100;
+typeBars+='<div class="bar-row"><div class="bar-label">'+name+'</div><div class="bar-track"><div class="bar-fill green" style="width:'+pct+'%;">'+(s.done>0?s.done:'')+'</div></div><div style="min-width:50px;text-align:right;font-size:12px;">'+s.done+'/'+tt+'</div></div>';
+});
+
+var yearRows='';
+var ycm={'2568':'#1b8a3a','2567':'#5cb85c','2566':'#f0ad4e','2565':'#e87d0d','2564 หรือเก่า':'#c9302c','ไม่ระบุ':'#6c757d'};
+var maxY=Math.max.apply(null,Object.keys(yearStats).map(function(k){return yearStats[k];}));
+for(var y in yearStats){
+var cnt=yearStats[y];
+if(cnt===0)continue;
+var pct=(cnt/maxY)*100;
+yearRows+='<div class="bar-row"><div class="bar-label">ปี '+y+'</div><div class="bar-track"><div class="bar-fill" style="width:'+pct+'%;background:'+ycm[y]+';">'+cnt+'</div></div></div>';
+}
+
+document.getElementById('dashboardBody').innerHTML=
+'<div class="kpi-grid">'
++'<div class="kpi-card blue"><div class="kpi-label">หน่วยงานทั้งหมด</div><div class="kpi-value">'+total+'</div><div class="kpi-label">แห่ง</div></div>'
++'<div class="kpi-card green"><div class="kpi-label">✔ ดำเนินการแล้ว</div><div class="kpi-value">'+totalDone+'</div><div class="kpi-label">'+percent+'%</div></div>'
++'<div class="kpi-card red"><div class="kpi-label">✖ ยังไม่ดำเนินการ</div><div class="kpi-value">'+totalPending+'</div><div class="kpi-label">'+(100-percent).toFixed(1)+'%</div></div>'
++'</div>'
++'<div class="chart-container"><h3>📊 สถิติแยกตามอำเภอ ('+amphoeArr.length+' อำเภอ)</h3>'+amphoeBars+'</div>'
++'<div class="chart-container"><h3>📊 สถิติแยกตามประเภท</h3>'+typeBars+'</div>'
++'<div class="chart-container"><h3>📊 สถิติแยกตามปีล่าสุด</h3>'+yearRows+'</div>'
++'<div class="chart-container"><h3>📈 แนวโน้มการเผยแพร่รายงาน (กราฟเส้น)</h3><div style="position:relative;height:300px;"><canvas id="trendChart"></canvas></div></div>'
++'<div class="chart-container"><h3>📊 เปรียบเทียบปีต่อปี</h3><div style="position:relative;height:300px;"><canvas id="barChart"></canvas></div></div>';
+
+setTimeout(function(){
+if(window._trendChart)window._trendChart.destroy();
+if(window._barChart)window._barChart.destroy();
+var yearsOrder=['2564 หรือเก่า','2565','2566','2567','2568'];
+var yearLabels=yearsOrder.map(function(y){return'ปี '+y;});
+var yearData=yearsOrder.map(function(y){return yearStats[y]||0;});
+var yearColors=['#c9302c','#e87d0d','#f0ad4e','#5cb85c','#1b8a3a'];
+var tc=document.getElementById('trendChart');
+if(tc){
+window._trendChart=new Chart(tc,{
+type:'line',
+data:{labels:yearLabels,datasets:[{label:'จำนวนหน่วยงานที่เผยแพร่',data:yearData,borderColor:'#1e88e5',backgroundColor:'rgba(30,136,229,0.15)',borderWidth:3,fill:true,tension:0.4,pointBackgroundColor:yearColors,pointBorderColor:'#fff',pointBorderWidth:3,pointRadius:8,pointHoverRadius:12}]},
+options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:true,position:'top'}},scales:{y:{beginAtZero:true,ticks:{stepSize:1}},x:{}}}
+});
+}
+var bc=document.getElementById('barChart');
+if(bc){
+window._barChart=new Chart(bc,{
+type:'bar',
+data:{labels:yearLabels,datasets:[{label:'จำนวนหน่วยงาน',data:yearData,backgroundColor:yearColors,borderColor:yearColors,borderWidth:2,borderRadius:8}]},
+options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{beginAtZero:true,ticks:{stepSize:1}},x:{}}}
+});
+}
+},100);
+}
+
+document.getElementById('printBtn').addEventListener('click',function(){
+window.print();
+});
+</script>
+</body>
+</html>
