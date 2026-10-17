@@ -78,54 +78,21 @@ body{margin:0;font-family:'Sarabun',sans-serif}
 .bar-track{flex:1;background:#f0f0f0;height:24px;border-radius:12px;overflow:hidden}
 .bar-fill{height:100%;border-radius:12px;transition:width .5s;display:flex;align-items:center;padding-right:8px;justify-content:flex-end;color:#fff;font-weight:700;font-size:11px}
 .bar-fill.green{background:linear-gradient(90deg,#28a745,#20c997)}
+
+/* ---------- Responsive สำหรับมือถือ ---------- */
+@media screen and (max-width: 768px) {
+  .logo-badge { display: none; }
+  .filter-bar { top: 5px; padding: 8px 10px; width: 95vw; gap: 6px; }
+  .filter-group { flex: 1 1 45%; }
+  .filter-bar select, .filter-bar input[type="text"] { width: 100%; font-size: 12px; }
+  .btn { flex: 1 1 auto; font-size: 11px; padding: 6px 8px; }
+  .filter-count { width: 100%; text-align: center; margin: 4px 0; }
+  .legend { display: none; }
+  .stats { font-size: 11px; padding: 8px 10px; min-width: 160px; bottom: 10px !important; left: 10px !important; }
+  .kpi-grid { grid-template-columns: 1fr; }
+  .modal-content { padding: 16px; max-height: 95vh; }
+}
 @media print{.filter-bar,.legend,.stats,.modal-close,.logo-badge,.leaflet-control-zoom,.leaflet-control-attribution{display:none !important}}
-    /* ---------- Responsive สำหรับมือถือ ---------- */
-    @media screen and (max-width: 768px) {
-      .logo-badge {
-        display: none; 
-      }
-      .filter-bar {
-        top: 5px; 
-        padding: 8px 10px;
-        width: 95vw;
-        gap: 6px;
-      }
-      .filter-group {
-        flex: 1 1 45%; 
-      }
-      .filter-bar select, 
-      .filter-bar input[type="text"] {
-        width: 100%; 
-        font-size: 12px;
-      }
-      .btn {
-        flex: 1 1 auto;
-        font-size: 11px;
-        padding: 6px 8px;
-      }
-      .filter-count {
-        width: 100%;
-        text-align: center;
-        margin: 4px 0;
-      }
-      .legend {
-        display: none; 
-      }
-      .stats {
-        font-size: 11px;
-        padding: 8px 10px;
-        min-width: 160px;
-        bottom: 10px !important;
-        left: 10px !important;
-      }
-      .kpi-grid {
-        grid-template-columns: 1fr; 
-      }
-      .modal-content {
-        padding: 16px;
-        max-height: 95vh;
-      }
-    }
 </style>
 </head>
 <body>
@@ -244,6 +211,9 @@ if(p.note)html+='<div class="popup-row"><b>หมายเหตุ:</b> '+p.not
 if(p.url&&p.url.indexOf('http')===0)html+='<a class="popup-link" href="'+p.url+'" target="_blank">🔗 เปิดรายงาน</a>';
 var marker=L.marker([lat,lng],{icon:makeIcon(p)});
 marker.bindPopup(html);
+marker.on('click', function(e) {
+    this.openPopup();
+});
 marker.bindTooltip(p.short_name||p.name,{direction:'top',offset:[0,-32]});
 marker._props=p;
 marker._yearGroup=getYearGroup(p);
