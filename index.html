@@ -12,11 +12,15 @@
 *{box-sizing:border-box}
 body{margin:0;font-family:'Sarabun',sans-serif}
 #map{height:100vh;width:100%}
+
+/* ---------- UI หลัก ---------- */
 .logo-badge{position:absolute;top:10px;left:10px;z-index:1000;background:#fff;padding:8px 14px 8px 10px;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,.25);display:flex;align-items:center;gap:10px;font-size:13px;font-weight:600;color:#222}
 .logo-badge svg{display:block;flex-shrink:0}
 .logo-badge .title{line-height:1.3}
 .logo-badge .subtitle{font-size:11px;font-weight:400;color:#666}
-.filter-bar{position:absolute;top:10px;left:50%;transform:translateX(-50%);z-index:1000;background:#fff;padding:10px 16px;border-radius:12px;box-shadow:0 4px 14px rgba(0,0,0,.25);display:flex;gap:10px;align-items:center;flex-wrap:wrap;max-width:98vw;font-size:13px}
+
+/* Filter Bar */
+.filter-bar{position:absolute;top:10px;left:50%;transform:translateX(-50%);z-index:1000;background:#fff;padding:10px 16px;border-radius:12px;box-shadow:0 4px 14px rgba(0,0,0,.25);display:flex;gap:10px;align-items:center;flex-wrap:wrap;max-width:98vw;font-size:13px;transition:all 0.3s ease;}
 .filter-group{display:flex;align-items:center;gap:6px}
 .filter-group label{font-weight:600;color:#333;white-space:nowrap}
 .filter-bar select,.filter-bar input[type="text"]{padding:5px 10px;border:1px solid #ccc;border-radius:6px;font-family:inherit;font-size:13px;background:#fff}
@@ -35,6 +39,9 @@ body{margin:0;font-family:'Sarabun',sans-serif}
 .btn.dashboard:hover{background:#6a0dad}
 .btn.print{border-color:#333;background:#333;color:#fff}
 .btn.print:hover{background:#000}
+.btn.toggle-filter{display:none;border-color:#1e88e5;background:#1e88e5;color:#fff;margin-bottom:5px;width:100%;}
+
+/* ---------- Pin & Popup ---------- */
 .pin{width:36px;height:36px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);display:flex;align-items:center;justify-content:center;border:3px solid #fff;box-shadow:0 3px 8px rgba(0,0,0,.45)}
 .pin span{transform:rotate(45deg);color:#fff;font-weight:700;font-size:14px;line-height:1}
 .pin.year-68{background:#1b8a3a}
@@ -44,26 +51,32 @@ body{margin:0;font-family:'Sarabun',sans-serif}
 .pin.year-64{background:#c9302c}
 .pin.old{background:#6c757d}
 .pin.pending{background:#dc3545}
+.popup-title{font-weight:700;font-size:15px;margin-bottom:4px;color:#222}
+.popup-row{font-size:13px;line-height:1.7}
+.popup-link{display:inline-block;margin-top:6px;padding:4px 10px;background:#1e88e5;color:#fff;text-decoration:none;border-radius:6px;font-size:12px}
+
+/* Legend & Stats */
 .legend{background:#fff;padding:12px 16px;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,.25);font-size:13px;line-height:1.8;max-width:300px}
 .legend h4{margin:0 0 8px;font-size:15px;color:#222}
 .legend .row{display:flex;align-items:center;gap:6px}
 .legend .dot{display:inline-block;width:16px;height:16px;border-radius:50%;flex-shrink:0;border:2px solid #fff;box-shadow:0 0 0 1px rgba(0,0,0,.15)}
 .legend hr{border:none;border-top:1px solid #eee;margin:8px 0}
-.stats{background:#fff;padding:12px 16px;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,.25);font-size:13px;line-height:1.7;min-width:240px}
-.stats h4{margin:0 0 6px;font-size:14px}
+
+.stats{background:rgba(255,255,255,0.95);padding:10px 12px;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,.25);font-size:13px;line-height:1.5;min-width:220px;transition:all 0.3s ease;}
+.stats h4{margin:0 0 6px;font-size:14px;cursor:pointer;user-select:none;display:flex;justify-content:space-between;}
 .stats table{width:100%;border-collapse:collapse}
 .stats td{padding:2px 4px}
 .stats .num{text-align:right;font-weight:700}
-.popup-title{font-weight:700;font-size:15px;margin-bottom:4px;color:#222}
-.popup-row{font-size:13px;line-height:1.7}
-.popup-link{display:inline-block;margin-top:6px;padding:4px 10px;background:#1e88e5;color:#fff;text-decoration:none;border-radius:6px;font-size:12px}
+.stats.minimized table { display: none; }
+.stats.minimized { padding: 6px 10px; min-width: auto; }
+
+/* Dashboard Modal */
 .modal{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.5);z-index:2000;justify-content:center;align-items:center;padding:20px}
 .modal.active{display:flex}
 .modal-content{background:#fff;border-radius:16px;padding:24px;max-width:1000px;width:100%;max-height:90vh;overflow-y:auto;box-shadow:0 20px 60px rgba(0,0,0,.3)}
 .modal-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;padding-bottom:12px;border-bottom:2px solid #eee}
 .modal-header h2{margin:0;font-size:22px;color:#222}
 .modal-close{background:#dc3545;color:#fff;border:none;width:36px;height:36px;border-radius:50%;font-size:20px;cursor:pointer;font-weight:700}
-.modal-close:hover{background:#c82333}
 .kpi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;margin-bottom:24px}
 .kpi-card{background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);color:#fff;padding:20px;border-radius:12px;text-align:center}
 .kpi-card.green{background:linear-gradient(135deg,#11998e 0%,#38ef7d 100%)}
@@ -82,13 +95,34 @@ body{margin:0;font-family:'Sarabun',sans-serif}
 /* ---------- Responsive สำหรับมือถือ ---------- */
 @media screen and (max-width: 768px) {
   .logo-badge { display: none; }
-  .filter-bar { top: 5px; padding: 8px 10px; width: 95vw; gap: 6px; }
-  .filter-group { flex: 1 1 45%; }
-  .filter-bar select, .filter-bar input[type="text"] { width: 100%; font-size: 12px; }
+  
+  .filter-bar { top: 5px; padding: 8px 10px; width: 95vw; gap: 6px; flex-direction: column; align-items: stretch; }
+  .filter-bar.collapsed .filter-content { display: none; }
+  .filter-bar.collapsed { width: auto; padding: 8px 16px; }
+  
+  .btn.toggle-filter { display: block; }
+  
+  .filter-content { display: flex; flex-direction: column; gap: 6px; }
+  .filter-group { flex: 1 1 100%; justify-content: space-between; }
+  .filter-bar select, .filter-bar input[type="text"] { width: 65%; font-size: 12px; }
+  .filter-group label { font-size: 12px; }
   .btn { flex: 1 1 auto; font-size: 11px; padding: 6px 8px; }
-  .filter-count { width: 100%; text-align: center; margin: 4px 0; }
+  .filter-count { width: 100%; text-align: center; margin: 2px 0; font-size: 12px; }
+  
+  /* ปรับ Legend และ Stats ให้เล็กลง */
   .legend { display: none; }
-  .stats { font-size: 11px; padding: 8px 10px; min-width: 160px; bottom: 10px !important; left: 10px !important; }
+  .stats { 
+    font-size: 11px; 
+    padding: 6px 10px; 
+    min-width: 140px; 
+    bottom: 10px !important; 
+    left: 10px !important; 
+    max-width: 180px;
+    line-height: 1.4;
+  }
+  .stats h4 { font-size: 12px; margin-bottom: 4px; }
+  .stats td { padding: 1px 2px; }
+  
   .kpi-grid { grid-template-columns: 1fr; }
   .modal-content { padding: 16px; max-height: 95vh; }
 }
@@ -96,6 +130,7 @@ body{margin:0;font-family:'Sarabun',sans-serif}
 </style>
 </head>
 <body>
+
 <div class="logo-badge">
 <svg width="50" height="50" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
 <defs>
@@ -114,32 +149,62 @@ body{margin:0;font-family:'Sarabun',sans-serif}
 </svg>
 <div class="title">แผนที่สถานะ อปท.<br><span class="subtitle">จังหวัดชัยภูมิ</span></div>
 </div>
-<div class="filter-bar">
-<div class="filter-group"><label>🔍 ค้นหา:</label><input type="text" id="searchBox" placeholder="พิมพ์ชื่อหน่วยงาน..."></div>
-<div class="filter-group"><label>ประเภท:</label><select id="filterType"><option value="all">ทั้งหมด</option><option value="อบจ.">อบจ.</option><option value="เทศบาลเมือง">เทศบาลเมือง</option><option value="เทศบาลตำบล">เทศบาลตำบล</option><option value="อบต.">อบต.</option><option value="หน่วยงานราชการ">หน่วยงานราชการ</option><option value="มหาวิทยาลัย">มหาวิทยาลัย</option></select></div>
-<div class="filter-group"><label>ปี:</label><select id="filterYear"><option value="all">ทั้งหมด</option><option value="68">ปี 68</option><option value="67">ปี 67</option><option value="66">ปี 66</option><option value="65">ปี 65</option><option value="64">ปี 64 หรือเก่า</option><option value="old">ไม่ระบุปี</option><option value="pending">ยังไม่ทำ</option></select></div>
-<div class="filter-group"><label>อำเภอ:</label><select id="filterAmphoe"><option value="all">ทั้งหมด</option></select></div>
-<span class="filter-count" id="filterCount">—</span>
-<button class="btn reset" id="filterReset">↺ ล้าง</button>
-<button class="btn pending" id="exportPending">📥 ยังไม่ทำ</button>
-<button class="btn done" id="exportDone">📥 ดำเนินการ</button>
-<button class="btn all" id="exportAll">📥 ทั้งหมด</button>
-<button class="btn dashboard" id="openDashboard">📊 Dashboard</button>
-<button class="btn print" id="printBtn">📄 พิมพ์</button>
+
+<!-- Filter Bar -->
+<div class="filter-bar" id="filterBar">
+  <button class="btn toggle-filter" id="toggleFilter">☰ แสดง/ซ่อน ตัวกรอง</button>
+  <div class="filter-content" id="filterContent">
+    <div class="filter-group"><label>🔍 ค้นหา:</label><input type="text" id="searchBox" placeholder="พิมพ์ชื่อ..."></div>
+    <div class="filter-group"><label>ประเภท:</label><select id="filterType"><option value="all">ทั้งหมด</option><option value="อบจ.">อบจ.</option><option value="เทศบาลเมือง">เทศบาลเมือง</option><option value="เทศบาลตำบล">เทศบาลตำบล</option><option value="อบต.">อบต.</option><option value="หน่วยงานราชการ">หน่วยงานราชการ</option><option value="มหาวิทยาลัย">มหาวิทยาลัย</option></select></div>
+    <div class="filter-group"><label>ปี:</label><select id="filterYear"><option value="all">ทั้งหมด</option><option value="68">ปี 68</option><option value="67">ปี 67</option><option value="66">ปี 66</option><option value="65">ปี 65</option><option value="64">ปี 64 หรือเก่า</option><option value="old">ไม่ระบุปี</option><option value="pending">ยังไม่ทำ</option></select></div>
+    <div class="filter-group"><label>อำเภอ:</label><select id="filterAmphoe"><option value="all">ทั้งหมด</option></select></div>
+    
+    <span class="filter-count" id="filterCount">—</span>
+    <div style="display:flex; flex-wrap:wrap; gap:6px; width:100%;">
+      <button class="btn reset" id="filterReset">↺ ล้าง</button>
+      <button class="btn pending" id="exportPending">📥 ยังไม่ทำ</button>
+      <button class="btn done" id="exportDone">📥 ดำเนินการ</button>
+      <button class="btn all" id="exportAll">📥 ทั้งหมด</button>
+      <button class="btn dashboard" id="openDashboard">📊 Dashboard</button>
+      <button class="btn print" id="printBtn">📄 พิมพ์</button>
+    </div>
+  </div>
 </div>
+
 <div id="map"></div>
+
+<!-- Modal -->
 <div class="modal" id="dashboardModal">
 <div class="modal-content">
 <div class="modal-header"><h2>📊 Dashboard สถิติ</h2><button class="modal-close" id="closeDashboard">✕</button></div>
 <div id="dashboardBody"></div>
 </div>
 </div>
+
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <script>
 var map=L.map('map',{center:[15.8068,102.0315],zoom:9});
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'© OpenStreetMap',maxZoom:19}).addTo(map);
+
+// ปุ่มพับเก็บ Filter Bar บนมือถือ
+document.getElementById('toggleFilter').addEventListener('click', function() {
+  var bar = document.getElementById('filterBar');
+  bar.classList.toggle('collapsed');
+  this.textContent = bar.classList.contains('collapsed') ? '☰ แสดงตัวกรอง' : '☰ ซ่อนตัวกรอง';
+});
+
+// ฟังก์ชันปิด/เปิดกล่องสถิติ
+function initStatsToggle() {
+  var statsDiv = document.querySelector('.stats');
+  if(statsDiv) {
+    var h4 = statsDiv.querySelector('h4');
+    h4.addEventListener('click', function() {
+      statsDiv.classList.toggle('minimized');
+    });
+  }
+}
 
 function getYearClass(p){
 if(p.status==='pending')return{cls:'pending',year:'X'};
@@ -211,9 +276,7 @@ if(p.note)html+='<div class="popup-row"><b>หมายเหตุ:</b> '+p.not
 if(p.url&&p.url.indexOf('http')===0)html+='<a class="popup-link" href="'+p.url+'" target="_blank">🔗 เปิดรายงาน</a>';
 var marker=L.marker([lat,lng],{icon:makeIcon(p)});
 marker.bindPopup(html);
-marker.on('click', function(e) {
-    this.openPopup();
-});
+marker.on('click', function(e) { this.openPopup(); });
 marker.bindTooltip(p.short_name||p.name,{direction:'top',offset:[0,-32]});
 marker._props=p;
 marker._yearGroup=getYearGroup(p);
@@ -381,13 +444,14 @@ var c=yearCounts[y];
 if(c===0)continue;
 rows+='<tr><td><span style="display:inline-block;width:12px;height:12px;background:'+cm[y]+';border-radius:50%;margin-right:6px;vertical-align:middle;"></span>ปี '+y+'</td><td class="num">'+c+'</td></tr>';
 }
-div.innerHTML='<h4>สถิติตามปีล่าสุด</h4><table>'+rows
+div.innerHTML='<h4>สถิติตามปีล่าสุด <span style="font-size:10px;color:#999;">(คลิกเพื่อย่อ/ขยาย)</span></h4><table>'+rows
 +'<tr style="border-top:1px solid #eee;font-weight:700;"><td>✔ ดำเนินการแล้ว</td><td class="num" style="color:#28a745">'+done+'</td></tr>'
 +'<tr style="font-weight:700;"><td>✖ ยังไม่ดำเนินการ</td><td class="num" style="color:#dc3545">'+pending+'</td></tr>'
 +'<tr style="border-top:2px solid #333;font-weight:700;"><td>รวมทั้งหมด</td><td class="num">'+(done+pending)+'</td></tr></table>';
 return div;
 };
 statsControl.addTo(map);
+initStatsToggle();
 }
 
 document.getElementById('openDashboard').addEventListener('click',function(){
