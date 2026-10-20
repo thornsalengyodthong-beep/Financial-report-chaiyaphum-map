@@ -1,7 +1,10 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "province": "ชัยภูมิ"
+    "province": "ชัยภูมิ",
+    "source": "units_all_2026-10-18.xls",
+    "updated": "2026-10-20",
+    "total_features": 145
   },
   "features": [
     {
@@ -107,7 +110,7 @@
         "amphoe": "เมืองชัยภูมิ",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.cheelong.go.th/v/document/1034"
       },
@@ -130,7 +133,7 @@
         "amphoe": "เมืองชัยภูมิ",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "รายงานผลการตรวจสอบ สตง. ปี 2568",
         "url": ""
       },
@@ -153,7 +156,7 @@
         "amphoe": "เมืองชัยภูมิ",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "ประชาสัมพันธ์ผลการตรวจสอบ ปี 2568",
         "url": ""
       },
@@ -176,7 +179,7 @@
         "amphoe": "เมืองชัยภูมิ",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.bankhaimuenpheaw.go.th/project-detail?hd=17&id=29823"
       },
@@ -222,7 +225,7 @@
         "amphoe": "เมืองชัยภูมิ",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.ladyailocal.go.th/project-detail?hd=34&id=33320"
       },
@@ -268,7 +271,7 @@
         "amphoe": "เมืองชัยภูมิ",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.naseaw.go.th/news-detail?hd=1&id=64889"
       },
@@ -291,7 +294,7 @@
         "amphoe": "เมืองชัยภูมิ",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.nongnasang.go.th/project-detail?hd=17&id=29783"
       },
@@ -406,7 +409,7 @@
         "amphoe": "เมืองชัยภูมิ",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.nongphaisao.go.th/project-detail?hd=34&id=29544"
       },
@@ -429,7 +432,7 @@
         "amphoe": "เมืองชัยภูมิ",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.kodtum.go.th/select_news.php?news_id=1783"
       },
@@ -452,7 +455,7 @@
         "amphoe": "เมืองชัยภูมิ",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.nafai-chaiyaphum.go.th/project-detail?hd=39&id=30305"
       },
@@ -498,7 +501,7 @@
         "amphoe": "เมืองชัยภูมิ",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://bankhaisao.go.th/select_news.php?news_id=1771"
       },
@@ -544,7 +547,7 @@
         "amphoe": "เมืองชัยภูมิ",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.rmchaiyaphum.go.th/popdoc1.php"
       },
@@ -567,7 +570,7 @@
         "amphoe": "บำเหน็จณรงค์",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.banphet-mu.go.th/index/load_data/?doc=16576"
       },
@@ -588,11 +591,11 @@
         "short_name": "เทศบาลตำบลบำเหน็จณรงค์",
         "type": "เทศบาลตำบล",
         "amphoe": "บำเหน็จณรงค์",
-        "status": "done",
-        "status_text": "ดำเนินการแล้ว",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
         "latest_year": null,
         "note": "รายงานผลการตรวจสอบ สตง. ปี 2568",
-        "url": ""
+        "url": "https://www.bamnetnarong.go.th/project-rev2?hd=29"
       },
       "geometry": {
         "type": "Point",
@@ -636,7 +639,7 @@
         "amphoe": "บำเหน็จณรงค์",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.kohmanow.go.th/select_news.php?news_id=1107"
       },
@@ -751,7 +754,7 @@
         "amphoe": "บำเหน็จณรงค์",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.khokroengrom.go.th/select_news.php?news_id=711"
       },
@@ -1234,8 +1237,8 @@
         "amphoe": "เทพสถิต",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
-        "note": "",
+        "latest_year": 2568,
+        "note": "ล่าสุดปี 68",
         "url": "https://www.huayyaijiw.go.th/select_news.php?news_id=888"
       },
       "geometry": {
