@@ -8,6 +8,15 @@
 <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css"/>
 <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css"/>
 <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600;700&display=swap" rel="stylesheet">
+  /* ปรับตำแหน่งตัวนับผู้เข้าชมบนมือถือ */
+@media (max-width: 768px) {
+  #visitor-counter {
+    top: auto !important;   
+    bottom: 120px !important; 
+    right: 20px !important;
+    font-size: 12px !important;
+  }
+}
 <style>
 *{box-sizing:border-box}
 body{margin:0;font-family:'Sarabun',sans-serif}
