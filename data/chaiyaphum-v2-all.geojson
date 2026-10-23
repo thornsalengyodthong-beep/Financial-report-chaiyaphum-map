@@ -3,7 +3,7 @@
   "metadata": {
     "province": "ชัยภูมิ",
     "source": "units_all_2026-10-18.xls",
-    "updated": "2026-10-20",
+    "updated": "2026-10-23",
     "total_features": 145
   },
   "features": [
@@ -660,10 +660,10 @@
         "short_name": "องค์การบริหารส่วนตำบลบ้านตาล",
         "type": "อบต.",
         "amphoe": "บำเหน็จณรงค์",
-        "status": "done",
-        "status_text": "ดำเนินการแล้ว",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
         "latest_year": null,
-        "note": "",
+        "note": "2562",
         "url": "https://bantan.go.th/รายงาน-เงิน-ประจำปี/"
       },
       "geometry": {
@@ -685,7 +685,7 @@
         "amphoe": "บำเหน็จณรงค์",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "รายงานผลการตรวจสอบ สตง.",
         "url": ""
       },
@@ -708,7 +708,7 @@
         "amphoe": "บำเหน็จณรงค์",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.huatalae.go.th/select_news.php?news_id=1287"
       },
@@ -731,7 +731,7 @@
         "amphoe": "บำเหน็จณรงค์",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://banchuan.go.th/public/list/data/detail/id/125/menu/1202/page/1/catid/13"
       },
@@ -777,7 +777,7 @@
         "amphoe": "ซับใหญ่",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://thagoob.go.th/select_news.php?news_id=351"
       },
@@ -823,7 +823,7 @@
         "amphoe": "ซับใหญ่",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://takotong.go.th/news.php?id_type=26"
       },
@@ -844,8 +844,8 @@
         "short_name": "องค์การบริหารส่วนตำบลรังงาม",
         "type": "อบต.",
         "amphoe": "เนินสง่า",
-        "status": "done",
-        "status_text": "ดำเนินการแล้ว",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
         "latest_year": null,
         "note": "",
         "url": "https://www.rangam.go.th/select_news.php?news_id=729"
@@ -869,7 +869,7 @@
         "amphoe": "เนินสง่า",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.nongchim.go.th/project-detail?hd=34&id=30509"
       },
@@ -892,7 +892,7 @@
         "amphoe": "เนินสง่า",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.tanern.go.th/select_news.php?news_id=1253"
       },
@@ -915,7 +915,7 @@
         "amphoe": "เนินสง่า",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.kahad.go.th/project-detail?hd=17&id=30243"
       },
@@ -938,7 +938,7 @@
         "amphoe": "ภักดีชุมพล",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.banjiang.go.th/project-detail?hd=17&id=31143"
       },
@@ -961,7 +961,7 @@
         "amphoe": "ภักดีชุมพล",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.laemthong.go.th/project-detail?hd=17&id=33329"
       },
@@ -984,9 +984,9 @@
         "amphoe": "ภักดีชุมพล",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
-        "note": "การตรวจสอบรายงานการเงินปี 2568",
-        "url": "https://www.jaothong.go.th"
+        "latest_year": 2568,
+        "note": "ลงประกาศ การตรวจสอบรายงานการเงินปี 2568",
+        "url": "https://www.jaothong.go.th/index/load_data/?doc=15317"
       },
       "geometry": {
         "type": "Point",
@@ -1007,7 +1007,7 @@
         "amphoe": "ภักดีชุมพล",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2567,
         "note": "",
         "url": "https://obt-wangthong.go.th/fileupload/202608191240926939.pdf"
       },
@@ -1030,7 +1030,7 @@
         "amphoe": "หนองบัวระเหว",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.huiyae.go.th/content/252/160562"
       },
@@ -1076,7 +1076,7 @@
         "amphoe": "หนองบัวระเหว",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.nongbuarawea.go.th/Pages/finance_detail/57"
       },
@@ -1099,7 +1099,7 @@
         "amphoe": "หนองบัวระเหว",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.sokpladuk.go.th/project-detail?hd=29&id=29690"
       },
@@ -1122,7 +1122,7 @@
         "amphoe": "หนองบัวระเหว",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.wangtakhe.go.th/project-detail?hd=29&id=30405"
       },
@@ -1145,7 +1145,7 @@
         "amphoe": "เทพสถิต",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://thepsathit.go.th/"
       },
@@ -1212,11 +1212,11 @@
         "short_name": "องค์การบริหารส่วนตำบลนายางกลัก",
         "type": "อบต.",
         "amphoe": "เทพสถิต",
-        "status": "done",
-        "status_text": "ดำเนินการแล้ว",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
         "latest_year": null,
         "note": "Audit of the financial statements",
-        "url": ""
+        "url": "https://www.nayangklak.go.th"
       },
       "geometry": {
         "type": "Point",
@@ -1283,7 +1283,7 @@
         "amphoe": "บ้านแท่น",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.bantao.go.th/project-detail?hd=2&id=30059"
       },
@@ -1307,7 +1307,7 @@
         "status": "pending",
         "status_text": "ยังไม่ดำเนินการ",
         "latest_year": null,
-        "note": "หน้าหลัก",
+        "note": "ล่าสุดปี 67",
         "url": "banthaenlocal.go.th/Home"
       },
       "geometry": {
@@ -1352,7 +1352,7 @@
         "amphoe": "บ้านแท่น",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.srapung.go.th/Pages/finance_detail/8"
       },
@@ -1398,9 +1398,9 @@
         "amphoe": "บ้านแท่น",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "รายงานการรับจ่ายเงินปี 2568",
-        "url": ""
+        "url": "https://www.banthaen-sao.go.th/home"
       },
       "geometry": {
         "type": "Point",
@@ -1421,7 +1421,7 @@
         "amphoe": "บ้านเขว้า",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.taladrang.go.th/fileupload/2026-04-101610679184.pdf"
       },
@@ -1467,7 +1467,7 @@
         "amphoe": "บ้านเขว้า",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "http://www.tungtong.go.th/select_news.php?news_id=2554"
       },
@@ -1490,7 +1490,7 @@
         "amphoe": "บ้านเขว้า",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://bankhwao.go.th/select_news.php?news_id=803"
       },
@@ -1513,7 +1513,7 @@
         "amphoe": "บ้านเขว้า",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.cheebon.go.th/select_news.php?news_id=908"
       },
@@ -1536,7 +1536,7 @@
         "amphoe": "บ้านเขว้า",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.phulanka.go.th/fileupload/2026-04-013214422394.pdf"
       },
@@ -1580,11 +1580,11 @@
         "short_name": "เทศบาลตำบลคอนสาร",
         "type": "เทศบาลตำบล",
         "amphoe": "คอนสาร",
-        "status": "pending",
-        "status_text": "ยังไม่ดำเนินการ",
-        "latest_year": null,
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "latest_year": 2568,
         "note": "หน้าหลัก",
-        "url": "https://www.tessabankhonsan.go.th/home"
+        "url": "www.tessabankhonsan.go.th/project-detail?hd=34&id=33323"
       },
       "geometry": {
         "type": "Point",
@@ -1605,7 +1605,7 @@
         "amphoe": "คอนสาร",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.thungluilai.go.th/news-detail?hd=1&id=59293"
       },
@@ -1628,7 +1628,7 @@
         "amphoe": "คอนสาร",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.nonkoon.go.th/1select_news.php?news_id=187"
       },
@@ -1651,7 +1651,7 @@
         "amphoe": "คอนสาร",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.huai-yang.go.th/news-detail?hd=2&id=64888"
       },
@@ -1674,7 +1674,7 @@
         "amphoe": "คอนสาร",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://dongklang.go.th/public/list/data/detail/id/3282/menu/1716/page/1/catid/110"
       },
@@ -1720,7 +1720,7 @@
         "amphoe": "คอนสาร",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.thungnalao.go.th/project-detail?hd=34&id=33319"
       },
@@ -1743,7 +1743,7 @@
         "amphoe": "คอนสาร",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://dongbungks.go.th/public2025/detail?reYS9iQytydHpkSHlLemtWWUtlTXZmUT09"
       },
@@ -1789,7 +1789,7 @@
         "amphoe": "หนองบัวแดง",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://lhuangsiri.go.th/public/list/data/detail/id/3949/menu/1589/page/1"
       },
@@ -1812,7 +1812,7 @@
         "amphoe": "หนองบัวแดง",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.nbd.go.th/project-detail?hd=2&id=30058"
       },
@@ -1835,7 +1835,7 @@
         "amphoe": "หนองบัวแดง",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://nangdad.go.th/public/list/data/detail/id/4294/menu/1716/page/1/catid/110"
       },
@@ -1858,7 +1858,7 @@
         "amphoe": "หนองบัวแดง",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.wangchompu.go.th/project-detail?hd=34&id=30353"
       },
@@ -1881,7 +1881,7 @@
         "amphoe": "หนองบัวแดง",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.thamwuadaeng.go.th/select_news.php?news_id=1068"
       },
@@ -1898,12 +1898,12 @@
       "properties": {
         "order": 83,
         "id": "UNIT-083",
-        "name": "องค์การบริหารส่วนตำบลท่าใหญ่",
-        "short_name": "องค์การบริหารส่วนตำบลท่าใหญ่",
-        "type": "อบต.",
+        "name": "เทศบาลตำบลท่าใหญ่",
+        "short_name": "เทศบาลตำบลท่าใหญ่",
+        "type": "เทศบาลตำบล",
         "amphoe": "หนองบัวแดง",
-        "status": "done",
-        "status_text": "ดำเนินการแล้ว",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
         "latest_year": null,
         "note": "",
         "url": "https://www.thayai.go.th/news.php?id_type=11"
@@ -1927,8 +1927,8 @@
         "amphoe": "หนองบัวแดง",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
-        "note": "",
+        "latest_year": 2568,
+        "note": "ล่าสุดปี 67",
         "url": "https://www.kumaung.go.th/catalog/news/812"
       },
       "geometry": {
@@ -1950,7 +1950,7 @@
         "amphoe": "หนองบัวแดง",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.nongwang-cpm.go.th/project-detail?hd=17&id=29806"
       },
@@ -1973,7 +1973,7 @@
         "amphoe": "หนองบัวแดง",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.koodchumsang.go.th/fileupload/2026-02-237491040881.pdf"
       },
@@ -1994,10 +1994,10 @@
         "short_name": "เทศบาลตำบลคอนสวรรค์",
         "type": "เทศบาลตำบล",
         "amphoe": "คอนสวรรค์",
-        "status": "pending",
-        "status_text": "ยังไม่ดำเนินการ",
-        "latest_year": null,
-        "note": "ไม่พบรายงาน",
+        "status": "done",
+        "status_text": "ดำเนินการแล้ว",
+        "latest_year": 2568,
+        "note": "",
         "url": "https://www.khonsawancity.go.th/news-detail?hd=2&id=64912"
       },
       "geometry": {
@@ -2019,7 +2019,7 @@
         "amphoe": "คอนสวรรค์",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.huayraisao.go.th/select_news.php?news_id=1872"
       },
@@ -2065,7 +2065,7 @@
         "amphoe": "คอนสวรรค์",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": 2567,
+        "latest_year": 2568,
         "note": "ล่าสุดปี 67",
         "url": "https://www.sisamran.go.th/Pages/finance_detail/5"
       },
@@ -2088,7 +2088,7 @@
         "amphoe": "คอนสวรรค์",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": 2567,
+        "latest_year": 2568,
         "note": "ล่าสุดปี 67",
         "url": "https://www.yangwai.go.th/news.php?id_type=10"
       },
@@ -2134,7 +2134,7 @@
         "amphoe": "คอนสวรรค์",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.nongkhamsao.go.th/select_news.php?news_id=903"
       },
@@ -2180,7 +2180,7 @@
         "amphoe": "คอนสวรรค์",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.kokmungngoi.go.th/Pages/finance_detail/49"
       },
@@ -2203,7 +2203,7 @@
         "amphoe": "คอนสวรรค์",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.khonsawansao.go.th/Pages/news_detail/145"
       },
@@ -2226,7 +2226,7 @@
         "amphoe": "จัตุรัส",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.nongbuayai.go.th/fiscal-report/dl-30"
       },
@@ -2249,9 +2249,9 @@
         "amphoe": "จัตุรัส",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "รายงานการเงิน ปี 2568",
-        "url": ""
+        "url": "https://nongbuokhok.go.th/%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%87%E0%B8%B2%E0%B8%99/%e0%b8%9b%e0%b8%a3%e0%b8%b0%e0%b8%81%e0%b8%b2%e0%b8%a8%e0%b9%80%e0%b8%97%e0%b8%a8%e0%b8%9a%e0%b8%b2%e0%b8%a5%e0%b8%95%e0%b8%b3%e0%b8%9a%e0%b8%a5%e0%b8%ab%e0%b8%99%e0%b8%ad%e0%b8%87%e0%b8%9a-10/"
       },
       "geometry": {
         "type": "Point",
@@ -2272,7 +2272,7 @@
         "amphoe": "จัตุรัส",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.chatturat.go.th/select_news.php?news_id=365"
       },
@@ -2295,7 +2295,7 @@
         "amphoe": "จัตุรัส",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.bankam.go.th/shownews.php?id=1411"
       },
@@ -2318,7 +2318,7 @@
         "amphoe": "จัตุรัส",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.nongbuaban.go.th/select_news.php?news_id=1268"
       },
@@ -2341,7 +2341,7 @@
         "amphoe": "จัตุรัส",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.nongdon-sao.go.th/project_detail.php?hd=17&id=29809"
       },
@@ -2364,7 +2364,7 @@
         "amphoe": "จัตุรัส",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://nbk.go.th/select_news.php?news_id=1270"
       },
@@ -2387,7 +2387,7 @@
         "amphoe": "จัตุรัส",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.sompoi-cpm.go.th/news-detail?hd=2&id=60360"
       },
@@ -2456,7 +2456,7 @@
         "amphoe": "จัตุรัส",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.baankok.go.th/select_news.php?news_id=1701"
       },
@@ -2525,7 +2525,7 @@
         "amphoe": "แก้งคร้อ",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://kkmu.go.th/public/list/data/index/menu/1683"
       },
@@ -2548,7 +2548,7 @@
         "amphoe": "แก้งคร้อ",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.kaoyadee.go.th/news-detail?hd=2&id=64549"
       },
@@ -2592,10 +2592,10 @@
         "short_name": "องค์การบริหารส่วนตำบลหนองไผ่",
         "type": "อบต.",
         "amphoe": "แก้งคร้อ",
-        "status": "done",
-        "status_text": "ดำเนินการแล้ว",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
         "latest_year": null,
-        "note": "",
+        "note": "ลงเฉพาะงบแสดงฐานะการเงิน ยังไม่มีลงงบที่ สตง.รับรอง",
         "url": "https://www.nongphai.go.th/project-rev2?hd=29"
       },
       "geometry": {
@@ -2617,7 +2617,7 @@
         "amphoe": "แก้งคร้อ",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.nanongthum.go.th/select_news.php?news_id=1204"
       },
@@ -2661,10 +2661,10 @@
         "short_name": "องค์การบริหารส่วนตำบลหลุบคา",
         "type": "อบต.",
         "amphoe": "แก้งคร้อ",
-        "status": "done",
-        "status_text": "ดำเนินการแล้ว",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
         "latest_year": null,
-        "note": "",
+        "note": "ลงเฉพาะงบแสดงฐานะการเงิน ยังไม่มีลงงบที่ สตง.รับรอง",
         "url": "https://www.lupka.go.th/1select_news.php?news_id=304"
       },
       "geometry": {
@@ -2686,7 +2686,7 @@
         "amphoe": "แก้งคร้อ",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://drive.google.com/file/d/1gXQCym1iljbvxbW4kNB8nxcaSMy-3hra/view?usp=sharing"
       },
@@ -2709,7 +2709,7 @@
         "amphoe": "แก้งคร้อ",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.tamafaiwan.go.th/Pages/announce_detail/74#gsc.tab=0"
       },
@@ -2730,10 +2730,10 @@
         "short_name": "องค์การบริหารส่วนตำบลช่องสามหมอ",
         "type": "อบต.",
         "amphoe": "แก้งคร้อ",
-        "status": "done",
-        "status_text": "ดำเนินการแล้ว",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
         "latest_year": null,
-        "note": "",
+        "note": "ล่าสุดปี 65",
         "url": "https://chongsammorlocal.go.th/select_news.php?news_id=1215"
       },
       "geometry": {
@@ -2778,7 +2778,7 @@
         "amphoe": "เกษตรสมบูรณ์",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://kasetsomboon.go.th/public/list/data/index/menu/1589"
       },
@@ -2801,7 +2801,7 @@
         "amphoe": "เกษตรสมบูรณ์",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://kasetsomboon.go.th/public/list/data/detail/id/7809/menu/1589/page/1"
       },
@@ -2824,7 +2824,7 @@
         "amphoe": "เกษตรสมบูรณ์",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://banbuasdt.go.th/select_news.php?news_id=952"
       },
@@ -2847,7 +2847,7 @@
         "amphoe": "เกษตรสมบูรณ์",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.sraponthong.go.th/select_news.php?news_id=2125"
       },
@@ -2870,7 +2870,7 @@
         "amphoe": "เกษตรสมบูรณ์",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://nonkok.go.th/select_news.php?news_id=1701"
       },
@@ -2893,7 +2893,7 @@
         "amphoe": "เกษตรสมบูรณ์",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.banyang-sao.go.th/news-detail?hd=2&id=60324"
       },
@@ -2960,9 +2960,9 @@
         "short_name": "เทศบาลตำบลโนนทอง",
         "type": "เทศบาลตำบล",
         "amphoe": "เกษตรสมบูรณ์",
-        "status": "done",
-        "status_text": "ดำเนินการแล้ว",
-        "latest_year": 2567,
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
+        "latest_year": null,
         "note": "ล่าสุดปี 67",
         "url": "https://www.tambonnonthong.go.th/select_news.php?news_id=847"
       },
@@ -2985,7 +2985,7 @@
         "amphoe": "เกษตรสมบูรณ์",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://nongkha.go.th/news_ms.php?news_id=1112&type_id=29"
       },
@@ -3054,7 +3054,7 @@
         "amphoe": "ภูเขียว",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.tharttong.go.th/1select_news.php?news_id=1493"
       },
@@ -3098,10 +3098,10 @@
         "short_name": "เทศบาลตำบลบ้านเพชรภูเขียว",
         "type": "เทศบาลตำบล",
         "amphoe": "ภูเขียว",
-        "status": "done",
-        "status_text": "ดำเนินการแล้ว",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
         "latest_year": null,
-        "note": "",
+        "note": "ลงเฉพาะงบแสดงฐานะการเงิน ยังไม่มีลงงบที่ สตง.รับรอง",
         "url": "https://www.banphetphukhieo.go.th/project-detail?hd=29&id=29837"
       },
       "geometry": {
@@ -3123,7 +3123,7 @@
         "amphoe": "ภูเขียว",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://fa8.naxapi.com/bankaengcity.go.th/dnm_file/news/1771922774214_59823_center.pdf"
       },
@@ -3146,7 +3146,7 @@
         "amphoe": "ภูเขียว",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://fa8.naxapi.com/nong-toom.go.th/dnm_file/project/1771990546054_30062_center.pdf"
       },
@@ -3215,7 +3215,7 @@
         "amphoe": "ภูเขียว",
         "status": "pending",
         "status_text": "ยังไม่ดำเนินการ",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "หน้าหลัก",
         "url": "http://www.pakpang.go.th/index.php"
       },
@@ -3238,7 +3238,7 @@
         "amphoe": "ภูเขียว",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.olo.go.th/select_news.php?news_id=2403"
       },
@@ -3259,11 +3259,11 @@
         "short_name": "องค์การบริหารส่วนตำบลโคกสะอาด",
         "type": "อบต.",
         "amphoe": "ภูเขียว",
-        "status": "done",
-        "status_text": "ดำเนินการแล้ว",
+        "status": "pending",
+        "status_text": "ยังไม่ดำเนินการ",
         "latest_year": null,
         "note": "รายงานการเงินปี 2568 + สตง.",
-        "url": ""
+        "url": "https://www.koksaat.go.th/project-rev2?hd=34"
       },
       "geometry": {
         "type": "Point",
@@ -3307,15 +3307,15 @@
         "amphoe": "ภูเขียว",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.banpet.go.th/select_news.php?news_id=1960"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          102.27110670891197,
-          16.33015448464469
+          102.23729315736708,
+          16.341217897635204
         ]
       }
     },
@@ -3330,7 +3330,7 @@
         "amphoe": "ภูเขียว",
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
-        "latest_year": null,
+        "latest_year": 2568,
         "note": "",
         "url": "https://www.goodyom.go.th/news-detail?hd=2&id=60322"
       },
