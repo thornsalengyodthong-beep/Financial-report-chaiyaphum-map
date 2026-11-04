@@ -286,10 +286,12 @@ var html='<div class="popup-title">'+p.name+'</div>'
 +'<div class="popup-row"><b>ปีล่าสุด:</b> '+yearTxt+'</div>';
 if(p.note)html+='<div class="popup-row"><b>หมายเหตุ:</b> '+p.note+'</div>';
 
-// ปุ่มเปิดรายงาน (ของเดิม)
-if(p.url&&p.url.indexOf('http')===0)html+='<a class="popup-link" href="'+p.url+'" target="_blank">🔗 เปิดรายงาน</a>';
+// 🔗 ปุ่มเปิดรายงาน (ถ้ามีลิงก์)
+if(p.url && p.url.indexOf('http')===0) {
+    html += '<a class="popup-link" href="'+p.url+'" target="_blank">🔗 เปิดรายงาน</a>';
+}
 
-// 🎯 ปุ่มนำทางไปยัง Google Maps (ของใหม่ที่เพิ่ม)
+// 🎯 ปุ่มนำทาง Google Maps (แสดงทุกหมุด)
 var mapLink = 'https://www.google.com/maps/dir/?api=1&destination=' + lat + ',' + lng;
 html += '<a class="popup-link" style="background:#28a745; margin-left:5px;" href="' + mapLink + '" target="_blank">📍 นำทาง</a>';
 
