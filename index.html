@@ -53,7 +53,8 @@ body{margin:0;font-family:'Sarabun',sans-serif}
 .pin.pending{background:#dc3545}
 .popup-title{font-weight:700;font-size:15px;margin-bottom:4px;color:#222}
 .popup-row{font-size:13px;line-height:1.7}
-.popup-link{display:inline-block;margin-top:6px;padding:4px 10px;background:#1e88e5;color:#fff;text-decoration:none;border-radius:6px;font-size:12px}
+.popup-link{display:inline-block;margin-top:6px;margin-right:4px;padding:4px 10px;background:#1e88e5;color:#fff;text-decoration:none;border-radius:6px;font-size:12px}
+.popup-nav{display:inline-block;margin-top:6px;padding:4px 10px;background:#ea4335;color:#fff;text-decoration:none;border-radius:6px;font-size:12px;font-weight:bold;}
 
 /* Legend & Stats */
 .legend{background:#fff;padding:12px 16px;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,.25);font-size:13px;line-height:1.8;max-width:300px}
@@ -82,6 +83,7 @@ body{margin:0;font-family:'Sarabun',sans-serif}
 .kpi-card.green{background:linear-gradient(135deg,#11998e 0%,#38ef7d 100%)}
 .kpi-card.red{background:linear-gradient(135deg,#eb3349 0%,#f45c43 100%)}
 .kpi-card.blue{background:linear-gradient(135deg,#2193b0 0%,#6dd5ed 100%)}
+.kpi-card.orange{background:linear-gradient(135deg,#f2994a 0%,#f2c94c 100%)}
 .kpi-value{font-size:36px;font-weight:700;margin:8px 0}
 .kpi-label{font-size:13px;opacity:.9}
 .chart-container{margin-bottom:24px}
@@ -273,9 +275,15 @@ if (p.submit_date) {
 if (p.note) {
   html += '<div class="popup-row"><b>หมายเหตุ:</b> '+p.note+'</div>';
 }
+
+// ลิงก์รายงาน
 if (p.url && p.url.indexOf('http') === 0) {
   html += '<a class="popup-link" href="'+p.url+'" target="_blank">🔗 เปิดรายงาน</a>';
 }
+
+// ลิงก์นำทาง Google Maps
+var gmapsUrl = 'https://www.google.com/maps/dir/?api=1&destination=' + lat + ',' + lng;
+html += '<a class="popup-nav" href="'+gmapsUrl+'" target="_blank">📍 นำทาง</a>';
 
 var marker=L.marker([lat,lng],{icon:makeIcon(p)});
 marker.bindPopup(html);
@@ -467,38 +475,49 @@ document.getElementById('dashboardModal').classList.remove('active');
 
 function renderDashboard(){
 var amphoeStats={};
+var typeStats={};
+var yearStats={'2568':0,'2567':0,'2566':0,'2565':0,'2564 หรือเก่า':0,'ไม่ระบุ':0};
+var reportStats={'ส่งแล้ว':0, 'ยังไม่ส่ง':0};
+
 allFeatures.forEach(function(f){
 var p=f.properties;
 var a=p.amphoe||'ไม่ระบุ';
-if(!amphoeStats[a])amphoeStats[a]={done:0,pending:0};
-if(p.status==='done')amphoeStats[a].done++;
-else amphoeStats[a].pending++;
-});
-var typeStats={};
-allFeatures.forEach(function(f){
-var p=f.properties;
 var t=p.type||'อื่นๆ';
-if(!typeStats[t])typeStats[t]={done:0,pending:0};
-if(p.status==='done')typeStats[t].done++;
-else typeStats[t].pending++;
-});
-var yearStats={'2568':0,'2567':0,'2566':0,'2565':0,'2564 หรือเก่า':0,'ไม่ระบุ':0};
-allFeatures.forEach(function(f){
-var p=f.properties;
-if(p.status!=='done')return;
 var y=String(p.latest_year||'').trim();
-if(y==='2568'||y==='68')yearStats['2568']++;
-else if(y==='2567'||y==='67')yearStats['2567']++;
-else if(y==='2566'||y==='66')yearStats['2566']++;
-else if(y==='2565'||y==='65')yearStats['2565']++;
-else if(y&&parseInt(y)>2500&&parseInt(y)<=2564)yearStats['2564 หรือเก่า']++;
-else yearStats['ไม่ระบุ']++;
+var rs = p.report_status_2569 || 'ยังไม่ส่ง';
+
+// Amphoe stats
+if(!amphoeStats[a])amphoeStats[a]={done:0,pending:0};
+if(p.status==='done')amphoeStats[a].done++; else amphoeStats[a].pending++;
+
+// Type stats
+if(!typeStats[t])typeStats[t]={done:0,pending:0};
+if(p.status==='done')typeStats[t].done++; else typeStats[t].pending++;
+
+// Year stats
+if(p.status==='done'){
+    if(y==='2568'||y==='68')yearStats['2568']++;
+    else if(y==='2567'||y==='67')yearStats['2567']++;
+    else if(y==='2566'||y==='66')yearStats['2566']++;
+    else if(y==='2565'||y==='65')yearStats['2565']++;
+    else if(y&&parseInt(y)>2500&&parseInt(y)<=2564)yearStats['2564 หรือเก่า']++;
+    else yearStats['ไม่ระบุ']++;
+}
+
+// Report Status 2569 stats
+if(!reportStats[rs]) reportStats[rs] = 0;
+reportStats[rs]++;
 });
+
 var total=allFeatures.length;
 var totalDone=allFeatures.filter(function(f){return f.properties.status==='done';}).length;
 var totalPending=total-totalDone;
 var percent=((totalDone/total)*100).toFixed(1);
 
+var report2569Sent = reportStats['ส่งแล้ว'] || 0;
+var report2569NotSent = reportStats['ยังไม่ส่ง'] || 0;
+
+// Build Amphoe Bars
 var amphoeArr=Object.keys(amphoeStats).map(function(k){return[k,amphoeStats[k]];});
 amphoeArr.sort(function(a,b){return(b[1].done+b[1].pending)-(a[1].done+a[1].pending);});
 var maxA=Math.max.apply(null,amphoeArr.map(function(e){return e[1].done+e[1].pending;}));
@@ -510,6 +529,7 @@ var pct=(ta/maxA)*100;
 amphoeBars+='<div class="bar-row"><div class="bar-label">'+name+'</div><div class="bar-track"><div class="bar-fill green" style="width:'+pct+'%;">'+(s.done>0?s.done:'')+'</div></div><div style="min-width:50px;text-align:right;font-size:12px;">'+s.done+'/'+ta+'</div></div>';
 });
 
+// Build Type Bars
 var typeArr=Object.keys(typeStats).map(function(k){return[k,typeStats[k]];});
 typeArr.sort(function(a,b){return(b[1].done+b[1].pending)-(a[1].done+a[1].pending);});
 var maxT=Math.max.apply(null,typeArr.map(function(e){return e[1].done+e[1].pending;}));
@@ -521,6 +541,7 @@ var pct=(tt/maxT)*100;
 typeBars+='<div class="bar-row"><div class="bar-label">'+name+'</div><div class="bar-track"><div class="bar-fill green" style="width:'+pct+'%;">'+(s.done>0?s.done:'')+'</div></div><div style="min-width:50px;text-align:right;font-size:12px;">'+s.done+'/'+tt+'</div></div>';
 });
 
+// Build Year Bars
 var yearRows='';
 var ycm={'2568':'#1b8a3a','2567':'#5cb85c','2566':'#f0ad4e','2565':'#e87d0d','2564 หรือเก่า':'#c9302c','ไม่ระบุ':'#6c757d'};
 var maxY=Math.max.apply(null,Object.keys(yearStats).map(function(k){return yearStats[k];}));
@@ -531,12 +552,23 @@ var pct=(cnt/maxY)*100;
 yearRows+='<div class="bar-row"><div class="bar-label">ปี '+y+'</div><div class="bar-track"><div class="bar-fill" style="width:'+pct+'%;background:'+ycm[y]+';">'+cnt+'</div></div></div>';
 }
 
+// Build Report 2569 Bars
+var reportBars = '<div class="bar-row"><div class="bar-label">ส่งแล้ว</div><div class="bar-track"><div class="bar-fill" style="width:'+(report2569Sent/total*100)+'%;background:#28a745;">'+report2569Sent+'</div></div></div>'
+               + '<div class="bar-row"><div class="bar-label">ยังไม่ส่ง</div><div class="bar-track"><div class="bar-fill" style="width:'+(report2569NotSent/total*100)+'%;background:#dc3545;">'+report2569NotSent+'</div></div></div>';
+
 document.getElementById('dashboardBody').innerHTML=
 '<div class="kpi-grid">'
 +'<div class="kpi-card blue"><div class="kpi-label">หน่วยงานทั้งหมด</div><div class="kpi-value">'+total+'</div><div class="kpi-label">แห่ง</div></div>'
-+'<div class="kpi-card green"><div class="kpi-label">✔ ดำเนินการแล้ว</div><div class="kpi-value">'+totalDone+'</div><div class="kpi-label">'+percent+'%</div></div>'
++'<div class="kpi-card green"><div class="kpi-label">✔ ดำเนินการแล้ว (ภาพรวม)</div><div class="kpi-value">'+totalDone+'</div><div class="kpi-label">'+percent+'%</div></div>'
 +'<div class="kpi-card red"><div class="kpi-label">✖ ยังไม่ดำเนินการ</div><div class="kpi-value">'+totalPending+'</div><div class="kpi-label">'+(100-percent).toFixed(1)+'%</div></div>'
 +'</div>'
+// เพิ่มแถวที่ 2 สำหรับการส่ง 2569
++'<div class="kpi-grid">'
++'<div class="kpi-card green" style="background:linear-gradient(135deg,#1b8a3a,#28a745)"><div class="kpi-label">✔ ส่งรายงาน 2569 แล้ว</div><div class="kpi-value">'+report2569Sent+'</div><div class="kpi-label">แห่ง</div></div>'
++'<div class="kpi-card orange"><div class="kpi-label">✖ ยังไม่ส่งรายงาน 2569</div><div class="kpi-value">'+report2569NotSent+'</div><div class="kpi-label">แห่ง</div></div>'
++'</div>'
+
++'<div class="chart-container"><h3>📊 สถิติการส่งรายงานการเงิน ปี 2569</h3>'+reportBars+'</div>'
 +'<div class="chart-container"><h3>📊 สถิติแยกตามอำเภอ ('+amphoeArr.length+' อำเภอ)</h3>'+amphoeBars+'</div>'
 +'<div class="chart-container"><h3>📊 สถิติแยกตามประเภท</h3>'+typeBars+'</div>'
 +'<div class="chart-container"><h3>📊 สถิติแยกตามปีล่าสุด</h3>'+yearRows+'</div>'
