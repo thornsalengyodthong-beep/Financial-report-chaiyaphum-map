@@ -19,6 +19,8 @@
         "status": "pending",
         "status_text": "ยังไม่ดำเนินการ",
         "latest_year": null,
+        "report_status_2569": "ยังไม่ส่ง",
+        "submit_date": "",
         "note": "",
         "url": "https://drive.google.com/file/d/1QwLGoBECjjnmz5SbRFG7uKcl-3S7HmnO/view"
       },
@@ -39,6 +41,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "ยังไม่ส่ง",
+        "submit_date": "",
         "note": "ล่าสุดปี 68",
         "url": "https://www.cpru.ac.th/"
       },
@@ -59,6 +63,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2567,
+        "report_status_2569": "ยังไม่ส่ง",
+        "submit_date": "",
         "note": "ล่าสุดปี 67",
         "url": "https://chpao.org/uploads/news/attachment/953482-img-42416255568.pdf"
       },
@@ -79,6 +85,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2567,
+        "report_status_2569": "ส่งแล้ว",
+        "submit_date": "22 ตุลาคม 2569",
         "note": "ล่าสุดปี 67",
         "url": "https://www.cyptm.go.th/files/com_news_command/2025-07_b10269c57f729cb.pdf"
       },
@@ -99,6 +107,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.cheelong.go.th/v/document/1034"
       },
@@ -119,6 +129,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "ส่งแล้ว",
+        "submit_date": "28 ตุลาคม 2569",
         "note": "รายงานผลการตรวจสอบ สตง. ปี 2568",
         "url": ""
       },
@@ -139,6 +151,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "ประชาสัมพันธ์ผลการตรวจสอบ ปี 2568",
         "url": ""
       },
@@ -159,6 +173,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.bankhaimuenpheaw.go.th/project-detail?hd=17&id=29823"
       },
@@ -179,6 +195,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2567,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "ล่าสุดปี 67",
         "url": "https://www.subseetong.go.th/news-detail?hd=2&id=52401"
       },
@@ -199,6 +217,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.ladyailocal.go.th/project-detail?hd=34&id=33320"
       },
@@ -219,6 +239,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "ล่าสุดปี 68",
         "url": "https://www.nonsamranlocal.go.th/news-569.html"
       },
@@ -239,6 +261,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.naseaw.go.th/news-detail?hd=1&id=64889"
       },
@@ -259,6 +283,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.nongnasang.go.th/project-detail?hd=17&id=29783"
       },
@@ -279,6 +305,8 @@
         "status": "pending",
         "status_text": "ยังไม่ดำเนินการ",
         "latest_year": 2564,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "ล่าสุดปี 64",
         "url": "https://www.abtbungkla.go.th/news.php?id_type=11"
       },
@@ -299,6 +327,8 @@
         "status": "pending",
         "status_text": "ยังไม่ดำเนินการ",
         "latest_year": 2566,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "ล่าสุดปี 66",
         "url": "http://www.huayton.go.th/index.php/2015-05-28-15-54-33/206-2021-04-02-07-26-50"
       },
@@ -319,6 +349,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2567,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "ล่าสุดปี 67",
         "url": "https://www.thahin-ngom.go.th/news-detail?hd=2&id=52567"
       },
@@ -339,6 +371,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2567,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "ล่าสุดปี 67",
         "url": "https://www.phonthong.go.th/1select_news.php?news_id=324"
       },
@@ -359,6 +393,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.nongphaisao.go.th/project-detail?hd=34&id=29544"
       },
@@ -379,6 +415,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.kodtum.go.th/select_news.php?news_id=1783"
       },
@@ -399,6 +437,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.nafai-chaiyaphum.go.th/project-detail?hd=39&id=30305"
       },
@@ -419,6 +459,8 @@
         "status": "pending",
         "status_text": "ยังไม่ดำเนินการ",
         "latest_year": 2563,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "ล่าสุดปี 63",
         "url": "https://www.huaybong.go.th/Treasury/financial_status/Financial_status30septemble63.pdf"
       },
@@ -439,6 +481,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://bankhaisao.go.th/select_news.php?news_id=1771"
       },
@@ -459,6 +503,8 @@
         "status": "pending",
         "status_text": "ยังไม่ดำเนินการ",
         "latest_year": null,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "หน้าหลัก",
         "url": "https://www.banlao-sao.go.th/home"
       },
@@ -479,6 +525,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.rmchaiyaphum.go.th/popdoc1.php"
       },
@@ -499,6 +547,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.banphet-mu.go.th/index/load_data/?doc=16576"
       },
@@ -519,6 +569,8 @@
         "status": "pending",
         "status_text": "ยังไม่ดำเนินการ",
         "latest_year": null,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "รายงานผลการตรวจสอบ สตง. ปี 2568",
         "url": "https://www.bamnetnarong.go.th/project-rev2?hd=29"
       },
@@ -539,6 +591,8 @@
         "status": "pending",
         "status_text": "ยังไม่ดำเนินการ",
         "latest_year": 2565,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "ล่าสุดปี 65",
         "url": "https://www.phetpattana.go.th/select_news.php?news_id=732"
       },
@@ -559,6 +613,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.kohmanow.go.th/select_news.php?news_id=1107"
       },
@@ -579,6 +635,8 @@
         "status": "pending",
         "status_text": "ยังไม่ดำเนินการ",
         "latest_year": null,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "2562",
         "url": "https://bantan.go.th/รายงาน-เงิน-ประจำปี/"
       },
@@ -599,6 +657,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "รายงานผลการตรวจสอบ สตง.",
         "url": ""
       },
@@ -619,6 +679,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.huatalae.go.th/select_news.php?news_id=1287"
       },
@@ -639,6 +701,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://banchuan.go.th/public/list/data/detail/id/125/menu/1202/page/1/catid/13"
       },
@@ -659,6 +723,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.khokroengrom.go.th/select_news.php?news_id=711"
       },
@@ -679,6 +745,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://thagoob.go.th/select_news.php?news_id=351"
       },
@@ -699,6 +767,8 @@
         "status": "pending",
         "status_text": "ยังไม่ดำเนินการ",
         "latest_year": null,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "หน้าหลัก",
         "url": "http://www.subyai.go.th"
       },
@@ -719,6 +789,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://takotong.go.th/news.php?id_type=26"
       },
@@ -739,6 +811,8 @@
         "status": "pending",
         "status_text": "ยังไม่ดำเนินการ",
         "latest_year": null,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.rangam.go.th/select_news.php?news_id=729"
       },
@@ -759,6 +833,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.nongchim.go.th/project-detail?hd=34&id=30509"
       },
@@ -779,6 +855,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.tanern.go.th/select_news.php?news_id=1253"
       },
@@ -799,6 +877,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.kahad.go.th/project-detail?hd=17&id=30243"
       },
@@ -819,6 +899,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.banjiang.go.th/project-detail?hd=17&id=31143"
       },
@@ -839,6 +921,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.laemthong.go.th/project-detail?hd=17&id=33329"
       },
@@ -859,6 +943,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "ลงประกาศ การตรวจสอบรายงานการเงินปี 2568",
         "url": "https://www.jaothong.go.th/index/load_data/?doc=15317"
       },
@@ -879,6 +965,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2567,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://obt-wangthong.go.th/fileupload/202608191240926939.pdf"
       },
@@ -899,6 +987,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.huiyae.go.th/content/252/160562"
       },
@@ -919,6 +1009,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2567,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "ล่าสุดปี 67",
         "url": "https://www.khoksaadchaiyaphum.go.th/fileupload/2025-05-149540673396.pdf"
       },
@@ -939,6 +1031,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.nongbuarawea.go.th/Pages/finance_detail/57"
       },
@@ -959,6 +1053,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.sokpladuk.go.th/project-detail?hd=29&id=29690"
       },
@@ -979,6 +1075,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.wangtakhe.go.th/project-detail?hd=29&id=30405"
       },
@@ -999,6 +1097,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://thepsathit.go.th/"
       },
@@ -1019,6 +1119,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2567,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "ล่าสุดปี 67",
         "url": "https://www.tambonbanrai.go.th/select_news.php?news_id=5061"
       },
@@ -1039,6 +1141,8 @@
         "status": "pending",
         "status_text": "ยังไม่ดำเนินการ",
         "latest_year": 2564,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "ล่าสุดปี 64",
         "url": "https://www.pongnok.go.th/select_news.php?news_id=338"
       },
@@ -1059,6 +1163,8 @@
         "status": "pending",
         "status_text": "ยังไม่ดำเนินการ",
         "latest_year": null,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "Audit of the financial statements",
         "url": "https://www.nayangklak.go.th"
       },
@@ -1079,6 +1185,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "ล่าสุดปี 68",
         "url": "https://www.huayyaijiw.go.th/select_news.php?news_id=888"
       },
@@ -1099,6 +1207,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2567,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "ล่าสุดปี 67",
         "url": "https://www.watabaek.go.th/fileupload/2025-03-108834792235.pdf"
       },
@@ -1119,6 +1229,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.bantao.go.th/project-detail?hd=2&id=30059"
       },
@@ -1139,6 +1251,8 @@
         "status": "pending",
         "status_text": "ยังไม่ดำเนินการ",
         "latest_year": null,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "ล่าสุดปี 67",
         "url": "banthaenlocal.go.th/Home"
       },
@@ -1159,6 +1273,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2567,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "ล่าสุดปี 67",
         "url": "https://www.nongkhu.go.th/Dynamic_content/detail/finance/2"
       },
@@ -1179,6 +1295,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.srapung.go.th/Pages/finance_detail/8"
       },
@@ -1199,6 +1317,8 @@
         "status": "pending",
         "status_text": "ยังไม่ดำเนินการ",
         "latest_year": null,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "หน้าหลัก",
         "url": "https://samsuan.go.th/public/"
       },
@@ -1219,6 +1339,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "รายงานการรับจ่ายเงินปี 2568",
         "url": "https://www.banthaen-sao.go.th/home"
       },
@@ -1239,6 +1361,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.taladrang.go.th/fileupload/2026-04-101610679184.pdf"
       },
@@ -1259,6 +1383,8 @@
         "status": "pending",
         "status_text": "ยังไม่ดำเนินการ",
         "latest_year": 2566,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "ล่าสุดปี 66",
         "url": "https://lumlamchee.go.th/select_news.php?news_id=808"
       },
@@ -1279,6 +1405,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "http://www.tungtong.go.th/select_news.php?news_id=2554"
       },
@@ -1299,6 +1427,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://bankhwao.go.th/select_news.php?news_id=803"
       },
@@ -1319,6 +1449,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.cheebon.go.th/select_news.php?news_id=908"
       },
@@ -1339,6 +1471,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.phulanka.go.th/fileupload/2026-04-013214422394.pdf"
       },
@@ -1359,6 +1493,8 @@
         "status": "pending",
         "status_text": "ยังไม่ดำเนินการ",
         "latest_year": 2563,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "ล่าสุดปี 63",
         "url": "https://www.nondaeng.go.th/news.php?type_id=9"
       },
@@ -1379,6 +1515,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "หน้าหลัก",
         "url": "www.tessabankhonsan.go.th/project-detail?hd=34&id=33323"
       },
@@ -1399,6 +1537,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.thungluilai.go.th/news-detail?hd=1&id=59293"
       },
@@ -1419,6 +1559,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.nonkoon.go.th/1select_news.php?news_id=187"
       },
@@ -1439,6 +1581,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.huai-yang.go.th/news-detail?hd=2&id=64888"
       },
@@ -1459,6 +1603,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://dongklang.go.th/public/list/data/detail/id/3282/menu/1716/page/1/catid/110"
       },
@@ -1479,6 +1625,8 @@
         "status": "pending",
         "status_text": "ยังไม่ดำเนินการ",
         "latest_year": 2564,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "ล่าสุดปี 64",
         "url": "https://tambontungpha.go.th/document/financial_report"
       },
@@ -1499,6 +1647,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.thungnalao.go.th/project-detail?hd=34&id=33319"
       },
@@ -1519,6 +1669,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://dongbungks.go.th/public2025/detail?reYS9iQytydHpkSHlLemtWWUtlTXZmUT09"
       },
@@ -1539,6 +1691,8 @@
         "status": "pending",
         "status_text": "ยังไม่ดำเนินการ",
         "latest_year": null,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "ไม่พบรายงาน",
         "url": "https://www.khonsanlocal.go.th/home"
       },
@@ -1559,6 +1713,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://lhuangsiri.go.th/public/list/data/detail/id/3949/menu/1589/page/1"
       },
@@ -1579,6 +1735,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.nbd.go.th/project-detail?hd=2&id=30058"
       },
@@ -1599,6 +1757,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://nangdad.go.th/public/list/data/detail/id/4294/menu/1716/page/1/catid/110"
       },
@@ -1619,6 +1779,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.wangchompu.go.th/project-detail?hd=34&id=30353"
       },
@@ -1639,6 +1801,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.thamwuadaeng.go.th/select_news.php?news_id=1068"
       },
@@ -1659,6 +1823,8 @@
         "status": "pending",
         "status_text": "ยังไม่ดำเนินการ",
         "latest_year": null,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.thayai.go.th/news.php?id_type=11"
       },
@@ -1679,6 +1845,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "ล่าสุดปี 67",
         "url": "https://www.kumaung.go.th/catalog/news/812"
       },
@@ -1699,6 +1867,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.nongwang-cpm.go.th/project-detail?hd=17&id=29806"
       },
@@ -1719,6 +1889,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.koodchumsang.go.th/fileupload/2026-02-237491040881.pdf"
       },
@@ -1739,6 +1911,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.khonsawancity.go.th/news-detail?hd=2&id=64912"
       },
@@ -1759,6 +1933,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.huayraisao.go.th/select_news.php?news_id=1872"
       },
@@ -1779,6 +1955,8 @@
         "status": "pending",
         "status_text": "ยังไม่ดำเนินการ",
         "latest_year": 2566,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "ล่าสุดปี 66",
         "url": "https://www.chongsammor.go.th/news.php?id_type=11"
       },
@@ -1799,6 +1977,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "ล่าสุดปี 67",
         "url": "https://www.sisamran.go.th/Pages/finance_detail/5"
       },
@@ -1819,6 +1999,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "ล่าสุดปี 67",
         "url": "https://www.yangwai.go.th/news.php?id_type=10"
       },
@@ -1839,6 +2021,8 @@
         "status": "pending",
         "status_text": "ยังไม่ดำเนินการ",
         "latest_year": null,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "ไม่พบรายงาน",
         "url": "https://www.nonsaard.go.th/index"
       },
@@ -1859,6 +2043,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.nongkhamsao.go.th/select_news.php?news_id=903"
       },
@@ -1879,6 +2065,8 @@
         "status": "pending",
         "status_text": "ยังไม่ดำเนินการ",
         "latest_year": null,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "ไม่พบรายงาน",
         "url": "https://bansok.go.th/public/"
       },
@@ -1899,6 +2087,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.kokmungngoi.go.th/Pages/finance_detail/49"
       },
@@ -1919,6 +2109,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.khonsawansao.go.th/Pages/news_detail/145"
       },
@@ -1939,6 +2131,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.nongbuayai.go.th/fiscal-report/dl-30"
       },
@@ -1959,6 +2153,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "รายงานการเงิน ปี 2568",
         "url": "https://nongbuokhok.go.th/%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%87%E0%B8%B2%E0%B8%99/%e0%b8%9b%e0%b8%a3%e0%b8%b0%e0%b8%81%e0%b8%b2%e0%b8%a8%e0%b9%80%e0%b8%97%e0%b8%a8%e0%b8%9a%e0%b8%b2%e0%b8%a5%e0%b8%95%e0%b8%b3%e0%b8%9a%e0%b8%a5%e0%b8%ab%e0%b8%99%e0%b8%ad%e0%b8%87%e0%b8%9a-10/"
       },
@@ -1979,6 +2175,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.chatturat.go.th/select_news.php?news_id=365"
       },
@@ -1999,6 +2197,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.bankam.go.th/shownews.php?id=1411"
       },
@@ -2019,6 +2219,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.nongbuaban.go.th/select_news.php?news_id=1268"
       },
@@ -2039,6 +2241,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.nongdon-sao.go.th/project_detail.php?hd=17&id=29809"
       },
@@ -2059,6 +2263,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://nbk.go.th/select_news.php?news_id=1270"
       },
@@ -2079,6 +2285,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.sompoi-cpm.go.th/news-detail?hd=2&id=60360"
       },
@@ -2099,6 +2307,8 @@
         "status": "pending",
         "status_text": "ยังไม่ดำเนินการ",
         "latest_year": null,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "ไม่แนบรายงาน",
         "url": "https://www.kudnamsai.go.th/select_news.php?news_id=3351"
       },
@@ -2119,6 +2329,8 @@
         "status": "pending",
         "status_text": "ยังไม่ดำเนินการ",
         "latest_year": 2565,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "ล่าสุดปี 65",
         "url": "https://www.tumbonlahan.go.th/select_news.php?news_id=5640"
       },
@@ -2139,6 +2351,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.baankok.go.th/select_news.php?news_id=1701"
       },
@@ -2159,6 +2373,8 @@
         "status": "pending",
         "status_text": "ยังไม่ดำเนินการ",
         "latest_year": 2562,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "ล่าสุดปี 62",
         "url": "https://www.tessaban-nongsang.go.th/project-detail?hd=34&id=2753"
       },
@@ -2179,6 +2395,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2567,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "ล่าสุดปี 67",
         "url": "https://nanongtum.go.th/public/list/data/datacategory/catid/13/menu/1202"
       },
@@ -2199,6 +2417,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://kkmu.go.th/public/list/data/index/menu/1683"
       },
@@ -2219,6 +2439,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.kaoyadee.go.th/news-detail?hd=2&id=64549"
       },
@@ -2239,6 +2461,8 @@
         "status": "pending",
         "status_text": "ยังไม่ดำเนินการ",
         "latest_year": 2565,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "ล่าสุดปี 65",
         "url": "https://www.tbnongkham.go.th/index.php/service-th/publications-th/155-inspection-unit-report"
       },
@@ -2259,6 +2483,8 @@
         "status": "pending",
         "status_text": "ยังไม่ดำเนินการ",
         "latest_year": null,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "ลงเฉพาะงบแสดงฐานะการเงิน ยังไม่มีลงงบที่ สตง.รับรอง",
         "url": "https://www.nongphai.go.th/project-rev2?hd=29"
       },
@@ -2279,6 +2505,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.nanongthum.go.th/select_news.php?news_id=1204"
       },
@@ -2299,6 +2527,8 @@
         "status": "pending",
         "status_text": "ยังไม่ดำเนินการ",
         "latest_year": null,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "หน้าหลัก",
         "url": "https://www.khokkung.go.th/home"
       },
@@ -2319,6 +2549,8 @@
         "status": "pending",
         "status_text": "ยังไม่ดำเนินการ",
         "latest_year": null,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "ลงเฉพาะงบแสดงฐานะการเงิน ยังไม่มีลงงบที่ สตง.รับรอง",
         "url": "https://www.lupka.go.th/1select_news.php?news_id=304"
       },
@@ -2339,6 +2571,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://drive.google.com/file/d/1gXQCym1iljbvxbW4kNB8nxcaSMy-3hra/view?usp=sharing"
       },
@@ -2359,6 +2593,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.tamafaiwan.go.th/Pages/announce_detail/74#gsc.tab=0"
       },
@@ -2379,6 +2615,8 @@
         "status": "pending",
         "status_text": "ยังไม่ดำเนินการ",
         "latest_year": null,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "ล่าสุดปี 65",
         "url": "https://chongsammorlocal.go.th/select_news.php?news_id=1215"
       },
@@ -2399,6 +2637,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": null,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.tambonbandua.go.th/select_news.php?news_id=2257"
       },
@@ -2419,6 +2659,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://kasetsomboon.go.th/public/list/data/index/menu/1589"
       },
@@ -2439,6 +2681,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://kasetsomboon.go.th/public/list/data/detail/id/7809/menu/1589/page/1"
       },
@@ -2459,6 +2703,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://banbuasdt.go.th/select_news.php?news_id=952"
       },
@@ -2479,6 +2725,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.sraponthong.go.th/select_news.php?news_id=2125"
       },
@@ -2499,6 +2747,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://nonkok.go.th/select_news.php?news_id=1701"
       },
@@ -2519,6 +2769,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.banyang-sao.go.th/news-detail?hd=2&id=60324"
       },
@@ -2539,6 +2791,8 @@
         "status": "pending",
         "status_text": "ยังไม่ดำเนินการ",
         "latest_year": 2563,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "ล่าสุดปี 63",
         "url": "https://kudlor.go.th/public/list/data/datacategory/catid/13/menu/1202"
       },
@@ -2559,6 +2813,8 @@
         "status": "pending",
         "status_text": "ยังไม่ดำเนินการ",
         "latest_year": 2564,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "ล่าสุดปี 64",
         "url": "https://banpao.go.th/?option=info2&id=3"
       },
@@ -2579,6 +2835,8 @@
         "status": "pending",
         "status_text": "ยังไม่ดำเนินการ",
         "latest_year": null,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "ล่าสุดปี 67",
         "url": "https://www.tambonnonthong.go.th/select_news.php?news_id=847"
       },
@@ -2599,6 +2857,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://nongkha.go.th/news_ms.php?news_id=1112&type_id=29"
       },
@@ -2619,6 +2879,8 @@
         "status": "pending",
         "status_text": "ยังไม่ดำเนินการ",
         "latest_year": null,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "หน้าหลัก",
         "url": "https://www.phulanka.go.th/index.php"
       },
@@ -2639,6 +2901,8 @@
         "status": "pending",
         "status_text": "ยังไม่ดำเนินการ",
         "latest_year": null,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "ไม่แนบรายงาน",
         "url": "https://fa8.naxapi.com/tambonbanhun.go.th/dnm_file/project/1775701798799_30536_center.pdf"
       },
@@ -2659,6 +2923,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.tharttong.go.th/1select_news.php?news_id=1493"
       },
@@ -2679,6 +2945,8 @@
         "status": "pending",
         "status_text": "ยังไม่ดำเนินการ",
         "latest_year": null,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "หน้าหลัก",
         "url": "https://www.pkcity.go.th/home"
       },
@@ -2699,6 +2967,8 @@
         "status": "pending",
         "status_text": "ยังไม่ดำเนินการ",
         "latest_year": null,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "ลงเฉพาะงบแสดงฐานะการเงิน ยังไม่มีลงงบที่ สตง.รับรอง",
         "url": "https://www.banphetphukhieo.go.th/project-detail?hd=29&id=29837"
       },
@@ -2719,6 +2989,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://fa8.naxapi.com/bankaengcity.go.th/dnm_file/news/1771922774214_59823_center.pdf"
       },
@@ -2739,6 +3011,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://fa8.naxapi.com/nong-toom.go.th/dnm_file/project/1771990546054_30062_center.pdf"
       },
@@ -2759,6 +3033,8 @@
         "status": "pending",
         "status_text": "ยังไม่ดำเนินการ",
         "latest_year": null,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "หน้าหลัก",
         "url": "https://www.cheebon.go.th/index.php"
       },
@@ -2779,6 +3055,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2567,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "ล่าสุดปี 67",
         "url": "https://www.tambonnonthong.go.th/select_news.php?news_id=847"
       },
@@ -2799,6 +3077,8 @@
         "status": "pending",
         "status_text": "ยังไม่ดำเนินการ",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "หน้าหลัก",
         "url": "http://www.pakpang.go.th/index.php"
       },
@@ -2819,6 +3099,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.olo.go.th/select_news.php?news_id=2403"
       },
@@ -2839,6 +3121,8 @@
         "status": "pending",
         "status_text": "ยังไม่ดำเนินการ",
         "latest_year": null,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "รายงานการเงินปี 2568 + สตง.",
         "url": "https://www.koksaat.go.th/project-rev2?hd=34"
       },
@@ -2859,6 +3143,8 @@
         "status": "pending",
         "status_text": "ยังไม่ดำเนินการ",
         "latest_year": null,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "หน้าหลัก",
         "url": "https://bandon-phukhieo.go.th/public/"
       },
@@ -2879,6 +3165,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.banpet.go.th/select_news.php?news_id=1960"
       },
@@ -2899,6 +3187,8 @@
         "status": "done",
         "status_text": "ดำเนินการแล้ว",
         "latest_year": 2568,
+        "report_status_2569": "",
+        "submit_date": "",
         "note": "",
         "url": "https://www.goodyom.go.th/news-detail?hd=2&id=60322"
       },
