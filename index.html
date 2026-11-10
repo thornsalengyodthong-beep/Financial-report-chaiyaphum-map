@@ -245,7 +245,8 @@ map.addLayer(clusterGroup);
 var allFeatures=[];
 var allLayers=[];
 
-fetch('data/chaiyaphum-v3-all.geojson')
+// ⚠️ จุดที่ต้องแก้ไขหากเปลี่ยนชื่อไฟล์ GeoJSON
+fetch('data/chaiyaphum-v4-all.geojson')
 .then(function(res){
 if(!res.ok)throw new Error('Load failed: '+res.status);
 return res.json();
