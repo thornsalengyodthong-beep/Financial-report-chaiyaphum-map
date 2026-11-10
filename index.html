@@ -109,17 +109,8 @@ body{margin:0;font-family:'Sarabun',sans-serif}
   .btn { flex: 1 1 auto; font-size: 11px; padding: 6px 8px; }
   .filter-count { width: 100%; text-align: center; margin: 2px 0; font-size: 12px; }
   
-  /* ปรับ Legend และ Stats ให้เล็กลง */
   .legend { display: none; }
-  .stats { 
-    font-size: 11px; 
-    padding: 6px 10px; 
-    min-width: 140px; 
-    bottom: 10px !important; 
-    left: 10px !important; 
-    max-width: 180px;
-    line-height: 1.4;
-  }
+  .stats { font-size: 11px; padding: 6px 10px; min-width: 140px; bottom: 10px !important; left: 10px !important; max-width: 180px; line-height: 1.4; }
   .stats h4 { font-size: 12px; margin-bottom: 4px; }
   .stats td { padding: 1px 2px; }
   
@@ -268,13 +259,33 @@ var c=f.geometry.coordinates;
 var lng=c[0],lat=c[1];
 var statusTxt=p.status==='done'?'ดำเนินการแล้ว':'ยังไม่ดำเนินการ';
 var yearTxt=p.latest_year?'ปี '+p.latest_year:'ไม่ระบุปี';
-var html='<div class="popup-title">'+p.name+'</div>'
-+'<div class="popup-row"><b>ประเภท:</b> '+p.type+'</div>'
-+'<div class="popup-row"><b>อำเภอ:</b> '+(p.amphoe||'-')+'</div>'
-+'<div class="popup-row" style="margin-top:6px;"><b>สถานะ:</b> '+statusTxt+'</div>'
-+'<div class="popup-row"><b>ปีล่าสุด:</b> '+yearTxt+'</div>';
-if(p.note)html+='<div class="popup-row"><b>หมายเหตุ:</b> '+p.note+'</div>';
-if(p.url&&p.url.indexOf('http')===0)html+='<a class="popup-link" href="'+p.url+'" target="_blank">🔗 เปิดรายงาน</a>';
+
+// สร้าง HTML สำหรับ Popup
+var html = '<div class="popup-title">'+p.name+'</div>'
++ '<div class="popup-row"><b>ประเภท:</b> '+p.type+'</div>'
++ '<div class="popup-row"><b>อำเภอ:</b> '+(p.amphoe||'-')+'</div>'
++ '<div class="popup-row" style="margin-top:6px;"><b>สถานะ:</b> '+statusTxt+'</div>'
++ '<div class="popup-row"><b>ปีล่าสุด:</b> '+yearTxt+'</div>';
+
+// เพิ่มข้อมูลปี 2569 (ถ้ามี)
+if (p.report_status_2569) {
+  var color = (p.report_status_2569 === 'ส่งแล้ว') ? '#28a745' : '#dc3545';
+  html += '<div class="popup-row" style="margin-top:6px; border-top:1px dashed #ccc; padding-top:6px;"><b>สถานะส่งรายงาน 2569:</b> <span style="color:'+color+'; font-weight:bold;">'+p.report_status_2569+'</span></div>';
+}
+if (p.submit_date) {
+  html += '<div class="popup-row"><b>วันที่ส่ง:</b> '+p.submit_date+'</div>';
+}
+
+// เพิ่มหมายเหตุ (ถ้ามี)
+if (p.note) {
+  html += '<div class="popup-row"><b>หมายเหตุ:</b> '+p.note+'</div>';
+}
+
+// เพิ่มลิงก์รายงาน (ถ้ามี)
+if (p.url && p.url.indexOf('http') === 0) {
+  html += '<a class="popup-link" href="'+p.url+'" target="_blank">🔗 เปิดรายงาน</a>';
+}
+
 var marker=L.marker([lat,lng],{icon:makeIcon(p)});
 marker.bindPopup(html);
 marker.on('click', function(e) { this.openPopup(); });
@@ -367,10 +378,10 @@ if(name.indexOf(search)===-1&&short.indexOf(search)===-1)return false;
 return true;
 });
 if(filtered.length===0){alert('ไม่มีข้อมูล');return;}
-var headers=['ลำดับ','ชื่อหน่วยงาน','ประเภท','อำเภอ','สถานะ','ปีล่าสุด','หมายเหตุ','ลิงก์'];
+var headers=['ลำดับ','ชื่อหน่วยงาน','ประเภท','อำเภอ','สถานะ','ปีล่าสุด','สถานะส่ง 2569','วันที่ส่ง','หมายเหตุ','ลิงก์'];
 var rows=filtered.map(function(m,i){
 var p=m._props;
-return[i+1,p.name||'',p.type||'',p.amphoe||'',p.status==='done'?'ดำเนินการแล้ว':'ยังไม่ดำเนินการ',p.latest_year||'',p.note||'',p.url||''];
+return[i+1,p.name||'',p.type||'',p.amphoe||'',p.status==='done'?'ดำเนินการแล้ว':'ยังไม่ดำเนินการ',p.latest_year||'',p.report_status_2569||'',p.submit_date||'',p.note||'',p.url||''];
 });
 function esc(v){
 var s=String(v);
