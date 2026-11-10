@@ -245,7 +245,6 @@ map.addLayer(clusterGroup);
 var allFeatures=[];
 var allLayers=[];
 
-// ⚠️ จุดที่ต้องแก้ไขหากเปลี่ยนชื่อไฟล์ GeoJSON
 fetch('data/chaiyaphum-v4-all.geojson')
 .then(function(res){
 if(!res.ok)throw new Error('Load failed: '+res.status);
@@ -263,10 +262,11 @@ var yearTxt=p.latest_year?'ปี '+p.latest_year:'ไม่ระบุปี';
 var html = '<div class="popup-title">'+p.name+'</div>'
 + '<div class="popup-row"><b>ประเภท:</b> '+p.type+'</div>'
 + '<div class="popup-row"><b>อำเภอ:</b> '+(p.amphoe||'-')+'</div>'
+// ส่วนที่แก้ไขข้อความตามที่คุณต้องการ
 + '<div class="popup-row" style="margin-top:6px;"><b>สถานะการเผยแพร่รายงานการเงินที่ผ่านการตรวจสอบจาก สตง.แล้ว ทางสื่ออิเล็กทรอนิกส์:</b> '+statusTxt+'</div>'
 + '<div class="popup-row"><b>ปีล่าสุด:</b> '+yearTxt+'</div>';
 
-var rStatus = p.report_status_2569 || 'ยังไม่ส่ง';
+var rStatus = (p.report_status_2569 === 'ส่งแล้ว' || p.submit_date) ? 'ส่งแล้ว' : 'ยังไม่ส่ง';
 var rColor = (rStatus === 'ส่งแล้ว') ? '#28a745' : '#dc3545';
 html += '<div class="popup-row" style="margin-top:6px; border-top:1px dashed #ccc; padding-top:6px;"><b>สถานะส่งรายงาน 2569:</b> <span style="color:'+rColor+'; font-weight:bold;">'+rStatus+'</span></div>';
 if (p.submit_date) {
@@ -381,7 +381,8 @@ if(filtered.length===0){alert('ไม่มีข้อมูล');return;}
 var headers=['ลำดับ','ชื่อหน่วยงาน','ประเภท','อำเภอ','สถานะ','ปีล่าสุด','สถานะส่ง 2569','วันที่ส่ง','หมายเหตุ','ลิงก์'];
 var rows=filtered.map(function(m,i){
 var p=m._props;
-return[i+1,p.name||'',p.type||'',p.amphoe||'',p.status==='done'?'ดำเนินการแล้ว':'ยังไม่ดำเนินการ',p.latest_year||'',p.report_status_2569||'',p.submit_date||'',p.note||'',p.url||''];
+var rStatus = (p.report_status_2569 === 'ส่งแล้ว' || p.submit_date) ? 'ส่งแล้ว' : 'ยังไม่ส่ง';
+return[i+1,p.name||'',p.type||'',p.amphoe||'',p.status==='done'?'ดำเนินการแล้ว':'ยังไม่ดำเนินการ',p.latest_year||'',rStatus,p.submit_date||'',p.note||'',p.url||''];
 });
 function esc(v){
 var s=String(v);
@@ -485,7 +486,8 @@ var p=f.properties;
 var a=p.amphoe||'ไม่ระบุ';
 var t=p.type||'อื่นๆ';
 var y=String(p.latest_year||'').trim();
-var rs = p.report_status_2569 || 'ยังไม่ส่ง';
+// ระบบเช็กว่าถ้ามีวันที่ส่ง ให้ถือว่าส่งแล้ว
+var rs = (p.report_status_2569 === 'ส่งแล้ว' || p.submit_date) ? 'ส่งแล้ว' : 'ยังไม่ส่ง';
 
 // Amphoe stats
 if(!amphoeStats[a])amphoeStats[a]={done:0,pending:0};
